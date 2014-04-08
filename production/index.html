@@ -6,13 +6,19 @@
 	<title>Template</title>
 	<meta name="viewport" content="initial-scale=1"/>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
-	@@include('_headerscripts.html')
+	<!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 <!-- BEGIN  out-->
 <div class="out">
  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, officiis, beatae? Laboriosam, minus, voluptate, aliquam provident itaque doloribus quisquam maiores ducimus omnis molestiae enim harum voluptatem inventore placeat rerum doloremque?
-	@@include('_header.html', {"state": "is-fixed"})
+	<!-- BEGIN header -->
+	<header class="header is-fixed">
+		<h1>Example for some include</h1>
+	</header>
+	<!-- END header -->
 
 </div>
 <!-- END out-->
