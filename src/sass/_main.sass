@@ -1,4 +1,407 @@
-// Normally mainpage styles
+/*------------------------- Normally mainpage styles -------------------------*/
+.social
+	+clr
+	li
+		margin: 0 10px
+		float: left
+	a
+		display: block
+		+hide-text
+		+transition(all .2s ease-in)
+		&:hover
+			+transition(all .2s ease-in)
+			+opacity(0.6)
+		&:active
+			position: relative
+			top: 1px
+	.social__fb
+		+s(fb)
+	.social__vk
+		+s(vk)
+	.social__tw
+		+s(tw)
+	.social__od
+		+s(od)
 
+// alphabet
+.alphabet
+	width: 275px
+	+clr
+	li
+		margin: 0 4px 10px
+		float: left
+	a
+		text-decoration: none
+		color: $gray-light
+		+transition(all .2s ease-in)
+		&:hover
+			color: $gray-light_h
+			+transition(all .2s ease-in)
 
+.alphabet-filter
+	height: 32px
+	line-height: 32px
+	overflow: hidden
+	ul
+		+clr
+	li
+		margin: 0 6px
+		float: left
+	a
+		font-size: 12px
+		text-decoration: none
+		color: #6D6E70
+		+pb
+	.alphabet-filter__border
+		margin-right: 27px
+		position: relative
+		&:after
+			content: ""
+			width: 15px
+			height: 1px
+			background: #939597
+			position: absolute
+			top: 15px
+			right: -25px
+		span
+			margin: 0 5px
+// payment-methods
+.payment-methods
+	+clr
+	li
+		margin: 0 7px 14px
+		float: left
 
+// wrap-gallery
+.wrap-gallery
+	margin-top: 30px
+	+clr
+
+// gallery
+.gallery
+	float: left
+	position: relative
+.gallery__item
+	position: relative 
+.gallery__item-img 
+	width: 816px
+	height: 336px
+	line-height: 336px
+	overflow: hidden  
+	img 
+		min-width: 816px
+		max-height: 336px
+.gallery__title 
+	margin-bottom: 60px 
+	margin-left: 25px
+	font-size: 56px
+	line-height: 1
+	text-transform: uppercase
+	color: #FFF
+	+isb
+.gallery__item-descr
+	width: 432px
+	position: absolute
+	left: 50%
+	top: 70px
+	margin-left: -216px
+.gallery__prev, .gallery__next
+	position: absolute
+	z-index: 100
+	top: 50%
+	margin-top: -37px
+	cursor: pointer
+	+hide-text
+.gallery__pager
+	position: absolute
+	left: 0
+	right: 0
+	bottom: 12px
+	text-align: center
+	span
+		width: 8px
+		height: 8px
+		margin: 0 4px
+		display: inline-block
+		+border-radius(50%)
+		background: rgba(#fff, .3)
+		position: relative
+		z-index: 1000
+		+hide-text
+		&.cycle-pager-active
+			background: rgba(#fff, .8)
+.gallery__prev
+	left: 0
+	+s(i-slider_l2)
+.gallery__next
+	right: 0
+	+s(i-slider_r2)
+.gallery__item-label
+	height: 40px
+	line-height: 40px
+	padding: 0 25px
+	background: #d76c05 
+	+g(#ed7e00, #be580a)
+	+border-radius(3px)
+	font-size: 16px
+	color: #fff
+	+is
+	position: relative
+	&:after, &:before
+		content: ""
+		width: 20px
+		height: 20px
+		+border-radius(50%)
+		background: #d76c05 
+		+g(#e27502, #c86008)
+		position: absolute
+		top: 10px
+	&:after
+		left: -8px
+	&:before
+		right: -8px
+// banner
+.banner 
+	width: 400px 
+	float: left 
+.banner__item
+	width: 400px  
+	height: 112px
+	overflow: hidden
+	img 
+		width: 100%
+		
+// partners
+.partners
+	ul
+		+justify
+	li
+		+justify-child
+		a
+			display: inline-block
+			vertical-align: middle
+			line-height: 1.1
+			text-transform: uppercase
+			color: #0086EA
+			text-align: center
+			text-decoration: underline
+			+pb
+			&:hover
+				text-decoration: none
+	.partners__all
+		line-height: 99px
+
+// product-list
+.product-list
+	margin-bottom: 30px
+	position: relative
+	ul
+		+clr
+	li
+		width: 202px
+		float: left
+	.product-list__prev, .product-list__next
+		position: absolute
+		top: 85px
+		cursor: pointer
+		z-index: 1000
+	.product-list__prev
+		left: -24px
+		+s(i-arr2_l)
+	.product-list__next
+		right: -24px
+		+s(i-arr2_r)
+
+.label
+	display: inline-block
+	padding: 4px 10px
+	margin-bottom: 15px
+	+border-radius(3px)
+	text-transform: uppercase
+	font-size: 11px
+	line-height: 1
+	color: #fff 
+	+pb
+.label_discount
+	background: #ED1B2D
+.label_new
+	background: #0086EA
+	
+.promo
+	margin-bottom: 20px
+	background: #53BCAA
+	position: relative
+	+border-radius(5px)
+	+clr
+	&:after, &:before
+		content: ""
+		width: 20px
+		height: 20px
+		background: #fff
+		+border-radius(50%)
+		position: absolute
+		top: 18px
+	&:after
+		left: -12px
+	&:before
+		right: -12px
+.promo__num
+	height: 56px
+	float: left
+	ul
+		+clr
+	li
+		width: 204px
+		height: 56px
+		line-height: 56px
+		float: left
+		text-align: center
+		.ico
+			margin-right: 15px
+	.promo__item-descr
+		vertical-align: middle
+		display: inline-block
+		line-height: 1.2
+		color: #FFF
+	.promo__item-meta
+		text-transform: uppercase
+		+pb
+.promo__tel
+	height: 56px
+	line-height: 56px
+	overflow: hidden
+	font-size: 28px
+	text-align: center
+	color: #FFF
+	+is
+	.ico
+		margin-right: 15px
+	.promo__tel-num
+		height: 56px
+		line-height: 56px
+		display: inline-block
+
+.novelty
+	+clr
+.novelty__list
+	float: left
+	+clr
+	li
+		float: left
+.novelty__banner
+	overflow: hidden
+.novelty__banner-item
+	margin-bottom: 15px
+	a, img
+		display: block
+
+// slist
+.slist
+	margin-bottom: 10px
+	+clr
+	ul
+		width: 125px
+		margin-left: 30px
+		float: left
+		&:first-child
+			margin-left: 0
+	li
+	a
+		width: 125px
+		display: inline-block
+		color: #0086EA
+		line-height: 1
+		text-decoration: none 
+		+text-overflow
+		+is
+	.slist__title
+		margin: 15px 0
+		.h3
+			color: #353C3F
+			text-transform: uppercase
+			font-size: 12px
+			+isb
+
+// best
+.best
+	padding: 25px 0 35px 15px
+	background: #FAA519
+	+clr
+.best__left
+	width: 416px
+	margin-right: 30px
+	float: left
+	+clr
+.best__note
+	width: 250px
+	float: right
+	font-size: 12px
+	line-height: 2
+	color: rgba(#fff, .5) 
+	+is
+.best__list 
+	overflow: hidden
+.best__list-title
+	margin-bottom: 30px
+	color: #FFF
+	font-size: 28px
+	line-height: 1
+	+isb
+.best__list-row
+	+clr
+.best__list-item
+	width: 245px
+	margin-left: 16px
+	line-height: 1.6
+	float: left
+	color: #fff 
+	&:first-child
+		margin-left: 0
+.best__list-meta
+	margin-bottom: 10px
+	color: #353C3F
+	text-transform: uppercase
+	font-weight: bold
+
+// subnav
+.subnav
+	padding: 20px 15px
+	margin-bottom: 25px
+	background: #53BCAA
+	+border-radius(5px)
+	ul
+	li
+		border-bottom: 1px solid #41C6B7
+	a
+		margin: 3px 0
+		display: block
+		color: #fff
+		text-decoration: none 
+.subnav__title
+	margin-bottom: 20px
+	text-decoration: none
+	+pb
+	font-weight: bold
+	text-decoration: underline
+	color: #fff
+	&:hover
+		text-decoration: none
+	a
+		text-decoration: none
+		+pb
+		font-weight: bold
+		text-decoration: underline
+		color: #fff
+		&:hover
+			text-decoration: none
+
+// banner-mini 
+.banner-mini
+.banner-mini__item
+	width: 280px
+	height: 110px
+	overflow: hidden
+	margin-bottom: 15px
+	img
+		width: 100%
+		display: block

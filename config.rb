@@ -4,7 +4,7 @@
 http_path = "/"
 css_dir = "production/css"
 sass_dir = "src/sass"
-images_dir = "src/img"
+images_dir = "production/img"
 javascripts_dir = "src/js"
 
 

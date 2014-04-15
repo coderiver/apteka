@@ -1,0 +1,126 @@
+/*------------------------- footer -------------------------*/
+.footer
+	background: #333840
+	.footer-i
+		width: 1224px
+		padding: 0 18px
+		margin-left: auto
+		margin-right: auto
+	.footer__row
+		padding: 19px 0
+		+clr
+	.footer__row_mod
+		border-bottom: 1px solid #fff 
+.footer__label
+	width: 306px
+	float: left
+	+clr
+	.footer__label-top
+		height: 19px
+		margin-bottom: 15px
+		.h4
+			text-transform: uppercase
+			color: #FFF
+			+pb
+.footer__list
+	width: 153px
+	float: left
+	.footer__list-top
+		height: 19px
+		margin-bottom: 15px
+		.h4
+			text-transform: uppercase
+			color: #FFF
+			+pb
+	ul
+		li
+			margin-bottom: 9px
+			color: $gray-light 
+		a
+			text-decoration: none
+			color: $gray-light
+			+transition(all .2s ease-in)
+			&:hover
+				color: $gray-light_h
+				+transition(all .2s ease-in)
+.footer__tel
+	margin-right: 45px
+	display: inline-block
+	vertical-align: middle
+	font-size: 28px
+	color: #FFF
+	+is
+.footer__social
+	margin-right: 130px
+	display: inline-block
+	vertical-align: middle
+.footer__yandex
+	margin-right: 70px
+	display: inline-block
+	vertical-align: middle
+	.i-yandex
+		margin-right: 14px
+		float: left
+		+s(i-yandex)
+	.star
+		float: left
+.footer__delivery
+	display: inline-block
+	vertical-align: middle
+.footer__delivery-title
+	margin-bottom: 8px
+	text-transform: uppercase
+	color: #FFF
+	font-size: 14px
+	+pb
+	.h4
+		text-transform: uppercase
+		color: #FFF
+		font-size: 14px
+		+pb
+.delivery-form
+	width: 278px
+	padding: 3px
+	background: #FFF
+	+border-radius(2px)
+	+box-shadow(0 0 0 1px #333840, inset 0 0 5px rgba(0,0,0, .25))
+	overflow: hidden
+	float: right
+	+clr
+	.delivery-form__input
+		width: 170px
+		padding: 3px 3px 3px 12px
+		height: 24px
+		float: left
+		font-size: 14px
+		color: $gray
+		+ps
+		+placeholder
+			font-size: 14px
+			color: $gray
+			+ps
+	.delivery-form__btn
+		margin: 3px 3px 0 0
+		float: right
+		+s(btn-search2)
+		color: #FFF
+		+pb
+		+transition(all .2s ease-in)
+		&:hover
+			+opacity(0.8)
+			+transition(all .2s ease-in)
+		&:active
+			position: relative
+			top: 1px
+
+.star
+	+clr
+	li
+		margin: 0 4px
+		float: left
+	a
+		display: inline-block
+	.i-star_a
+		+s(i-star_a)
+	.i-star_un
+		+s(i-star_un)

@@ -1,0 +1,391 @@
+<!doctype html>
+<!--[if lte IE 8]><html class="lteie8"><![endif]-->
+<!--[if gt IE 8]><!--><html><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>product 1</title>
+	<meta name="viewport" content="initial-scale=1"/>
+	<link rel="stylesheet" media="screen" href="css/screen.css" >
+	@@include('_headerscripts.html')
+</head>
+<body>
+<!-- BEGIN  out-->
+<div class="out">
+
+	@@include('_header.html')
+
+	<!-- BEGIN page -->
+	<div class="page">
+		<div class="page-i wrap">
+
+			<div class="wrap-gallery">
+				<div class="gallery">
+					<div class="cycle-slideshow"
+					data-cycle-fx="scrollHorz"
+					data-cycle-timeout="6000"
+					data-cycle-slides=".gallery__item"
+					data-cycle-pager=".gallery__pager"
+					data-cycle-prev=".gallery__prev"
+					data-cycle-next=".gallery__next"
+					data-pause-on-hover="true"
+					>
+						<div class="gallery__item">
+							<div class="gallery__item-img">
+								<a href="#"><img src="http://placehold.it/816x336"></a>
+							</div>
+							<div class="gallery__item-descr">
+								<div class="gallery__title">
+									Здоровые <br>
+									Волосы
+								</div>
+								<div class="gallery__item-label">
+									<p>20 лучших средств  для здоровья ваших волос</p>
+								</div>
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div class="gallery__item-img">
+								<a href="#"><img src="http://placehold.it/816x336"></a>
+							</div>
+							<div class="gallery__item-descr">
+								<div class="gallery__title">
+									2 Здоровые <br>
+									Волосы
+								</div>
+								<div class="gallery__item-label">
+									<p>20 лучших средств  для здоровья ваших волос</p>
+								</div>
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div class="gallery__item-img">
+								<a href="#"><img src="http://placehold.it/816x336"></a>
+							</div>
+							<div class="gallery__item-descr">
+								<div class="gallery__title">
+									3 Здоровые <br>
+									Волосы
+								</div>
+								<div class="gallery__item-label">
+									<p>20 лучших средств  для здоровья ваших волос</p>
+								</div>
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div class="gallery__item-img">
+								<a href="#"><img src="http://placehold.it/816x336"></a>
+							</div>
+							<div class="gallery__item-descr">
+								<div class="gallery__title">
+									4 Здоровые <br>
+									Волосы
+								</div>
+								<div class="gallery__item-label">
+									<p>20 лучших средств  для здоровья ваших волос</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="gallery__pager"></div>
+					<span class="gallery__prev">prev</span>
+					<span class="gallery__next">next</span>
+				</div>
+				<div class="banner">
+					<div class="banner__item">
+						<a href="#"><img src="http://placehold.it/400x112"></a>
+					</div>
+					<div class="banner__item">
+						<a href="#"><img src="http://placehold.it/400x112"></a>
+					</div>
+					<div class="banner__item">
+						<a href="#"><img src="http://placehold.it/400x112"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="partners">
+				<ul>
+					<li><img src="img/banner1.jpg" alt=""></li>
+					<li><img src="img/banner2.jpg" alt=""></li>
+					<li><img src="img/banner3.jpg" alt=""></li>
+					<li><img src="img/banner4.jpg" alt=""></li>
+					<li><img src="img/banner5.jpg" alt=""></li>
+					<li><img src="img/banner6.jpg" alt=""></li>
+					<li><img src="img/banner1.jpg" alt=""></li>
+					<li><img src="img/banner2.jpg" alt=""></li>
+					<li class="partners__all"><a href="#">Все <br>бренды</a></li>
+				</ul>
+			</div>
+			@@include('_sexy-title.html', {"state": "sexy-title_red"})
+			
+			<!-- BEGIN product-list -->
+			<div class="product-list">
+				<div class="cycle-slideshow"
+				data-cycle-fx="scrollHorz"
+				data-cycle-timeout="3600"
+				data-cycle-slides=".jq-slider"
+				data-cycle-prev=".jq-slider__prev"
+				data-cycle-next=".jq-slider__next"
+				>
+					<ul class="jq-slider">
+						<li>
+							@@include('_product_discount.html', {"state": "label_discount"})
+						</li>
+						<li>
+							@@include('_product.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product_new.html', {"state": "label_new"})
+						</li>
+						<li>
+							@@include('_product_mod.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product_mini.html', {"state": ""})
+						</li>
+					</ul>
+					<ul class="jq-slider">
+						<li>
+							@@include('_product_discount.html', {"state": "label_discount"})
+						</li>
+						<li>
+							@@include('_product_discount.html', {"state": "label_discount"})
+						</li>
+						<li>
+							@@include('_product_new.html', {"state": "label_new"})
+						</li>
+						<li>
+							@@include('_product_mini.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product_new.html', {"state": "label_new"})
+						</li>
+					</ul>
+					<ul class="jq-slider">
+						<li>
+							@@include('_product_mini.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product_mini.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product_mini.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product_mod.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product_mini.html', {"state": ""})
+						</li>
+						<li>
+							@@include('_product_mini.html', {"state": ""})
+						</li>
+					</ul>
+				</div>
+				<div class="product-list__nav">
+					<i class="jq-slider__prev product-list__prev"></i>
+					<i class="jq-slider__next product-list__next"></i>
+				</div>
+			</div>
+			<!-- / .product-list -->
+			
+			<!-- BEGIN promo -->
+			<div class="promo">
+				<div class="promo__num">
+					<ul>
+						<li class="promo__item">
+							<i class="ico i-ico1"></i>
+							<div class="promo__item-descr">
+								<strong class="promo__item-meta">доставка</strong><br>
+								условия
+							</div>
+						</li>
+						<li class="promo__item">
+							<i class="ico i-ico2"></i>
+							<div class="promo__item-descr">
+								<strong class="promo__item-meta">оплата</strong><br>
+								варианты
+							</div>
+						</li>
+						<li class="promo__item">
+							<i class="ico i-ico3"></i>
+							<div class="promo__item-descr">
+								<strong class="promo__item-meta">акции</strong><br>
+								и скидки
+							</div>
+						</li>
+						<li class="promo__item">
+							<i class="ico i-ico4"></i>
+							<div class="promo__item-descr">
+								<strong class="promo__item-meta">гарантия</strong><br>
+								качества
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="promo__tel">
+					<i class="ico i-ico5"></i>
+					<span class="promo__tel-num">8 (800) 200−10−15</span>
+				</div>
+			</div>
+			<!-- / .promo -->
+			@@include('_sexy-title.html', {"state": "sexy-title_blue"})
+
+			<!-- BEGIN novelty -->
+			<div class="novelty">
+				<ul class="novelty__list">
+					<li>
+						@@include('_product_discount.html', {"state": "label_discount"})
+					</li>
+					<li>
+						@@include('_product.html', {"state": ""})
+					</li>
+					<li>
+						@@include('_product_new.html', {"state": "label_new"})
+					</li>
+					<li>
+						@@include('_product_mini.html', {"state": ""})
+					</li>
+				</ul>
+				<div class="novelty__banner">
+					<div class="novelty__banner-item">
+						<a href="#"><img src="img/banner21.jpg" alt=""></a>
+					</div>
+					<div class="novelty__banner-item">
+						<a href="#"><img src="img/banner22.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<!-- / .novelty -->
+			@@include('_sexy-title_alphabet.html', {"state": "sexy-title_mod"})
+
+			<!-- BEGIN slist -->
+			<div class="slist">
+				<ul>
+					<li class="slist__title"><h3 class="h3">Лекарства</h3></li>
+					<li><a href="#">Антиагреганты</a></li>
+					<li><a href="#">Антигипертензивн..</a></li>
+					<li><a href="#">Венотонизирующи..</a></li>
+					<li><a href="#">Гинекология и урол...</a></li>
+					<li><a href="#">Дерматология</a></li>
+					<li><a href="#">Классическая гоме...</a></li>
+					<li><a href="#">Лекарства по рецепту</a></li>
+				</ul>
+				<ul>
+					<li class="slist__title"><h3 class="h3">Витамины  и БАД</h3></li>
+					<li><a href="#">Антиагреганты</a></li>
+					<li><a href="#">Антигипертензивн..</a></li>
+					<li><a href="#">Венотонизирующи..</a></li>
+					<li><a href="#">Гинекология и урол...</a></li>
+					<li><a href="#">Дерматология</a></li>
+					<li><a href="#">Классическая гоме...</a></li>
+					<li><a href="#">Лекарства по рецепту</a></li>
+				</ul>
+				<ul>
+					<li class="slist__title"><h3 class="h3">Красота и гигиена</h3></li>
+					<li><a href="#">Антиагреганты</a></li>
+					<li><a href="#">Антигипертензивн..</a></li>
+					<li><a href="#">Венотонизирующи..</a></li>
+					<li><a href="#">Гинекология и урол...</a></li>
+					<li><a href="#">Дерматология</a></li>
+					<li><a href="#">Классическая гоме...</a></li>
+					<li><a href="#">Лекарства по рецепту</a></li>
+				</ul>
+				<ul>
+					<li class="slist__title"><h3 class="h3">Медтехника</h3></li>
+					<li><a href="#">Антиагреганты</a></li>
+					<li><a href="#">Антигипертензивн..</a></li>
+					<li><a href="#">Венотонизирующи..</a></li>
+					<li><a href="#">Гинекология и урол...</a></li>
+					<li><a href="#">Дерматология</a></li>
+					<li><a href="#">Классическая гоме...</a></li>
+					<li><a href="#">Лекарства по рецепту</a></li>
+				</ul>
+				<ul>
+					<li class="slist__title"><h3 class="h3">Здоровое питание</h3></li>
+					<li><a href="#">Антиагреганты</a></li>
+					<li><a href="#">Антигипертензивн..</a></li>
+					<li><a href="#">Венотонизирующи..</a></li>
+					<li><a href="#">Гинекология и урол...</a></li>
+					<li><a href="#">Дерматология</a></li>
+					<li><a href="#">Классическая гоме...</a></li>
+					<li><a href="#">Лекарства по рецепту</a></li>
+				</ul>
+				<ul>
+					<li class="slist__title"><h3 class="h3">Мама и малыш</h3></li>
+					<li><a href="#">Антиагреганты</a></li>
+					<li><a href="#">Антигипертензивн..</a></li>
+					<li><a href="#">Венотонизирующи..</a></li>
+					<li><a href="#">Гинекология и урол...</a></li>
+					<li><a href="#">Дерматология</a></li>
+					<li><a href="#">Классическая гоме...</a></li>
+					<li><a href="#">Лекарства по рецепту</a></li>
+				</ul>
+				<ul>
+					<li class="slist__title"><h3 class="h3">Планирование семьи</h3></li>
+					<li><a href="#">Антиагреганты</a></li>
+					<li><a href="#">Антигипертензивн..</a></li>
+					<li><a href="#">Венотонизирующи..</a></li>
+					<li><a href="#">Гинекология и урол...</a></li>
+					<li><a href="#">Дерматология</a></li>
+					<li><a href="#">Классическая гоме...</a></li>
+					<li><a href="#">Лекарства по рецепту</a></li>
+				</ul>
+				<ul>
+					<li class="slist__title"><h3 class="h3">Акции и скидки</h3></li>
+					<li><a href="#">Антиагреганты</a></li>
+					<li><a href="#">Антигипертензивн..</a></li>
+					<li><a href="#">Венотонизирующи..</a></li>
+					<li><a href="#">Гинекология и урол...</a></li>
+					<li><a href="#">Дерматология</a></li>
+					<li><a href="#">Классическая гоме...</a></li>
+					<li><a href="#">Лекарства по рецепту</a></li>
+				</ul>
+			</div>
+			<!-- / .slist -->
+		</div>
+	</div>
+	<!-- / .page -->
+
+	<!-- BEGIN best -->
+	<div class="best">
+		<div class="best-i wrap">
+			<div class="best__left">
+				<img src="img/img1.png" alt="">
+				<div class="best__note">
+					<p>По Москве при общей сумме заказа  от 900 руб. и общем весе заказа до 10 кг. По Московской области бесплатная доставка в определенный день недели.</p>
+				</div>
+			</div>
+			<div class="best__list">
+				<h3 class="best__list-title">в Северо-Западном регионе по объему продаж</h3>
+				<div class="best__list-row">
+					<div class="best__list-item">
+						<h3 class="best__list-meta">Покупки</h3>
+						<p>Для оформления заказа перейдите в Вашу корзину. Для этого нажмите на корзину на любой странице сайта или разверните ранее открытое окно корзины. Просмотрите ее содержимое. Вы можете изменить количество экземпляров товара в корзине путем простого изменения числа в графе «количество»,  удалить (с помощью клика на значок x) отдельные единицы товара или добавить дополнительные товары путем повторного поиска.</p>
+					</div>
+					<div class="best__list-item">
+						<h3 class="best__list-meta">cклады</h3>
+						<p>После чего Вам необходимо «подтвердить заказ».  Оформление заказа завершено, на странице         всплывёт информационное окно, где будет указан номер Вашего заказ, данное уведомление Вы также получите по смс. После закрытия окна уведомления, вы автоматически попадает в свой личный кабинет, где вы можете увидеть историю своих заказов</p>
+					</div>
+					<div class="best__list-item">
+						<h3 class="best__list-meta">доставка</h3>
+						<p>Подтверждение наличия или отсутствия предварительно заказанного товара и возможности купить его с доставкой на дом, озвучивает Сотрудник центра обслуживания клиентов по указанному  телефону, также в личном кабинете на нашем сайте, при получении смс (mms) оповещений Вы можете видеть статусы заказов:</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / .best -->
+
+	@@include('_footer.html')
+
+</div>
+<!-- END out-->
+</body>
+</html>
