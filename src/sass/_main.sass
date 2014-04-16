@@ -629,6 +629,34 @@
 	color: #353C3F
 	+isb
 
+// btn
+.btn
+	height: 32px
+	line-height: 32px
+	padding: 0 30px
+	display: inline-block
+	vertical-align: middle
+	position: relative
+	text-transform: uppercase
+	text-decoration: none
+	text-align: center
+	color: #FFF
+	+pb
+	&:before, &:after
+		content: ""
+		width: 4px
+		height: 32px
+		position: absolute
+		top: 0
+	&:before
+		left: -2px
+	&:after
+		right: -2px
+	&:hover
+		+opacity(0.8)
+	&:active
+		top: 1px
+
 // btn-orange
 .btn-orange
 	height: 50px
@@ -658,6 +686,22 @@
 		+opacity(0.8)
 	&:active
 		top: 1px
+
+// btn-green
+.btn-green
+	background: url(../img/icons/btn_center-bl.png) 0px 0px repeat-x
+	&:before
+		background: url(../img/icons/btn_left-bl.png) 0px 0px no-repeat
+	&:after
+		background: url(../img/icons/btn_right-bl.png) 0px 0px no-repeat
+		
+// btn-gray
+.btn-gray
+	background: url(../img/icons/btn_center-gr.png) 0px 0px repeat-x
+	&:before
+		background: url(../img/icons/btn_left-gr.png) 0px 0px no-repeat
+	&:after
+		background: url(../img/icons/btn_right-gr.png) 0px 0px no-repeat
 
 .btn_basket
 	.i-basket
@@ -830,11 +874,62 @@
 // user-data
 .user-data
 	margin-bottom: 50px
+.user-data_mod
+	width: 470px
+	float: left
+.user-data_mod2
+	width: 434px
+	margin-top: 60px
+	float: left
+	.user-data__form
+		width: 404px
+		.user-data__edit-red
+			color: #939597
+		.user-data__edit-del
+			color: #939597
 .user-data__title
 	margin-bottom: 20px
+	margin-right: 25px
+	display: inline-block
 	font-size: 30px
 	color: #000
 	+is
+.user-data__form
+	width: 415px
+	padding: 15px
+	background: #f5f5f5
+	color: #353C3F
+	+is
+	.user-data__form-user
+		margin-bottom: 15px
+		+isb
+	.user-data__form-tel
+		margin-bottom: 15px
+	.user-data__edit
+		padding-top: 10px
+		margin-top: 10px
+		border-top: 1px solid #AEACAE
+	.user-data__edit-red
+		margin-right: 5px
+		display: inline-block
+		color: $blue
+		text-decoration: underline
+		cursor: pointer
+		&:hover
+			text-decoration: none
+	.user-data__edit-del
+		display: inline-block
+		color: #ED1B2D
+		text-decoration: underline
+		cursor: pointer
+		&:hover
+			text-decoration: none
+.user-data__new
+	display: inline-block
+	color: $blue
+	+is
+	&:hover
+		text-decoration: none
 .user-data__section
 	margin-bottom: 32px
 .user-data__row
@@ -854,6 +949,18 @@
 	float: left
 	padding: 0 16px
 	.input
+		width: 310px
+.user-data__input_red
+	+clr
+	.user-data__add
+		float: left
+	.user-data__cancel
+		float: right
+.user-data__textarea
+	width: 330px
+	float: left
+	padding: 0 16px
+	.textarea
 		width: 310px
 .user-data__checbox
 	height: 32px
@@ -901,5 +1008,22 @@
 		color: #353C3F
 		font-size: 12px
 		+is
+.select
+	width: 100%
+	padding: 6px 9px
+	border: 1px solid #939597
+	+border-radius(3px)
+	color: #353c3f
+	+is
+.textarea
+	width: 100%
+	min-height: 46px
+	padding: 6px 9px
+	border: 1px solid #939597
+	+border-radius(3px)
+	color: #353c3f
+	resize: vertical
+	+is
+
 
 	 
