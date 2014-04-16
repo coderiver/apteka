@@ -405,3 +405,262 @@
 	img
 		width: 100%
 		display: block
+
+.goods
+	margin-bottom: 40px
+.goods__row
+	+clr
+.goods__left
+	width: 592px
+	float: left
+.goods__right
+	width: 312px
+	float: right
+.goods__right-in
+	margin-top: 75px
+.goods__title
+	margin-top: 20px
+	margin-bottom: 10px
+	font-size: 30px
+	line-height: 1
+	+is
+.goods__meta
+	margin-top: 25px
+	margin-bottom: 15px
+	+clr
+.goods__meta-label
+	float: left
+.goods__meta-label1
+	width: 160px
+.goods__meta-label2
+	width: 210px
+.goods__meta-label3
+	overflow: hidden
+.goods__meta-desc
+	color: #353C3F
+	text-transform: uppercase
+	+pb
+.goods__content
+	color: #6D6E70
+	+is
+	p
+		margin-bottom: 15px
+.goods__meta-more
+	text-decoration: none
+	color: $blue
+	+is
+.goods-list
+	+clr
+	.goods-list__left
+		width: 280px
+		margin-right: 16px
+		float: left
+	.goods-list__right
+		overflow: hidden
+.goods-list__item
+	margin-bottom: 15px
+	.goods-list__item-meta
+		color: #353C3F
+		+isb
+	.goods-list__item-descr
+		color: #6D6E70
+		+is
+// breadcrumbs
+.breadcrumbs
+	ul
+		+clr
+	li
+		margin-left: 30px
+		float: left
+		&:first-child
+			margin-left: 0
+			a
+				&:after
+					content: none
+	a
+		color: $gray
+		text-decoration: none 
+		position: relative
+		&:after
+			content: ""
+			+s(arr_subnav)
+			position: absolute
+			top: 6px
+			left: -23px
+
+// favorites
+.favorites
+	color: #0086EA
+	font-size: 12px
+	text-transform: uppercase
+	text-decoration: none
+	+pb
+	&:before
+		content: ""
+		margin-right: 10px
+		display: inline-block
+		vertical-align: middle
+		+s(heart_blue)
+
+// produce
+.produce
+	+clr
+.produce__left
+	width: 280px
+	margin-right: 16px
+	float: left
+.produce__right
+	padding: 0 16px 
+	overflow: hidden
+.produce__right-label
+	height: 280px
+	margin-top: 17px
+	margin-bottom: 8px
+.produce__right-descr
+	height: 225px
+.produce__price
+.produce__price-old
+	display: inline-block
+	position: relative
+	color: #353C3F
+	font-size: 16px
+	+is
+	&:before
+		content: ""
+		background: url(../img/icons/i-line.png) 0px 0px no-repeat
+		width: 68px
+		height: 6px
+		position: absolute
+		top: 6px
+		left: 50%
+		margin-left: -34px
+.produce__price-actual
+	color: #ED1B2D
+	font-size: 28px
+	+isb
+.produce__media
+	width: 278px
+	height: 278px
+	line-height: 278px
+	margin-bottom: 8px
+	border: 1px solid #939597
+	overflow: hidden
+	text-align: center
+	img
+		display: inline-block
+		vertical-align: middle
+.produce__caro
+	+clr
+	font-size: 0
+.produce__caro-media
+	width: 62px
+	height: 62px
+	line-height: 62px
+	margin-left: 8px
+	display: inline-block
+	text-align: center
+	overflow: hidden
+	border: 1px solid #939597
+	font-size: 0
+	&:first-child
+		margin-left: 0
+	img
+		display: inline-block
+		vertical-align: middle
+.produce__row
+	margin-bottom: 25px
+	+clr
+	.star
+		margin-right: 15px
+		float: left
+	.reviews
+		float: left
+.produce__basket
+	height: 64px
+	line-height: 64px
+	.input-mini
+		margin-right: 8px
+.produce__article
+	margin-bottom: 7px
+	line-height: 1
+	color: #939597
+.produce__article-descr
+	text-decoration: none
+	color: $blue
+	+isb
+// star
+.star
+	img
+		cursor: pointer
+// reviews
+.reviews
+	position: relative
+	text-decoration: none
+	color: $blue
+	+is 
+	&:before
+		content: ""
+		margin-right: 8px
+		display: inline-block
+		vertical-align: middle
+		+s(i-comm)
+// input-mini
+.input-mini
+	width: 42px
+	height: 48px
+	line-height: 46px
+	padding-right: 10px
+	text-align: right
+	vertical-align: middle
+	+border-radius(3px)
+	border: 1px solid #939597
+	+box-shadow(inset 0 0 3px #939597)
+	font-size: 28px 
+	color: #353C3F
+	+isb
+
+// btn-orange
+.btn-orange
+	height: 50px
+	line-height: 50px
+	padding: 0 20px
+	background: url(../img/icons/btn_center-or.png) 0px 0px repeat-x
+	display: inline-block
+	vertical-align: middle
+	font-size: 20px
+	color: #FFF
+	text-decoration: none
+	position: relative
+	+pb
+	&:before, &:after
+		content: ""
+		width: 4px
+		height: 50px
+		position: absolute
+		top: 0
+	&:before
+		background: url(../img/icons/btn_left-or.png) 0px 0px no-repeat
+		left: -2px
+	&:after
+		background: url(../img/icons/btn_right-or.png) 0px 0px no-repeat
+		right: -2px
+	&:hover
+		+opacity(0.8)
+	&:active
+		top: 1px
+
+.btn_basket
+	.i-basket
+		margin-right: 15px
+		margin-top: -5px
+
+.delivery
+	color: #00A550
+	text-transform: uppercase
+	+pb
+	position: relative
+	&:after
+		content: ""
+		margin-left: 15px
+		display: inline-block
+		+s(i-car)
