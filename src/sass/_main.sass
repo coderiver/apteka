@@ -418,6 +418,11 @@
 	float: right
 .goods__right-in
 	margin-top: 75px
+.goods__right-note
+	margin-bottom: 30px
+	font-size: 14px
+	color: #939597
+	+is
 .goods__title
 	margin-top: 20px
 	margin-bottom: 10px
@@ -441,6 +446,7 @@
 	text-transform: uppercase
 	+pb
 .goods__content
+	padding-right: 50px
 	color: #6D6E70
 	+is
 	p
@@ -655,6 +661,7 @@
 		margin-top: -5px
 
 .delivery
+	margin-bottom: 15px
 	color: #00A550
 	text-transform: uppercase
 	+pb
@@ -664,3 +671,100 @@
 		margin-left: 15px
 		display: inline-block
 		+s(i-car)
+
+.day
+	margin-bottom: 15px
+	+is
+.day__title
+	color: #353C3F
+	font-size: 25px
+.day__date
+	font-size: 14px
+	color: #6D6E70
+
+.consultant
+	margin-bottom: 75px
+	+clr
+.consultant__media
+	width: 88px
+	height: 88px
+	margin-right: 16px
+	float: left
+	overflow: hidden
+	+border-radius(50%)
+	background: red
+	img
+		width: 100%
+.consultant__descr
+	overflow: hidden
+.consultant__question
+	margin-bottom: 10px
+	color: #6D6E70
+	+is 
+.consultant__name
+	display: inline-block
+	position: relative
+	font-size: 20px
+	color: $blue
+	+is
+	a
+		font-size: 20px
+		color: $blue
+		text-decoration: none
+		+is
+.consultant__name-status
+	width: 110px
+	position: absolute
+	top: 0px
+	right: -110px
+	color: #41C6B7
+	font-size: 10px
+	text-transform: uppercase
+	+pb
+	
+// more-product
+.more-product__title
+	margin-bottom: 20px
+	color: #353C3F
+	text-transform: uppercase
+	+pb
+.more-product__item
+	margin-bottom: 10px
+	+clr
+.more-product__item-media
+	width: 88px
+	height: 88px
+	line-height: 88px
+	margin-right: 16px
+	float: left
+	overflow: hidden
+	text-align: center
+	img
+		max-width: 100% 
+		vertical-align: middle
+.more-product__item-descr
+	padding-top: 10px
+	overflow: hidden
+.more-product__item-name
+	margin-bottom: 10px
+	display: block
+	color: $blue
+	text-decoration: none
+	+is
+.more-product__price
+	text-align: right
+	font-size: 12px
+	+isb
+	&:after
+		content: ""
+		display: inline-block
+		+s(i-basket2)
+
+// popup-product
+.popup-product
+	width: 614px
+	border: 1px solid #939597
+	position: absolute
+	top: 150px
+	left: 50%
+	margin-left: -306px

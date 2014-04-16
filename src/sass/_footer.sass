@@ -1,6 +1,7 @@
 /*------------------------- footer -------------------------*/
 .footer
 	background: #333840
+	color: $gray-light 
 	.footer-i
 		width: 1224px
 		padding: 0 18px
@@ -10,7 +11,9 @@
 		padding: 19px 0
 		+clr
 	.footer__row_mod
-		border-bottom: 1px solid #fff 
+		border-bottom: 1px solid #fff
+	.footer__row_mod2
+		border-top: 1px solid #fff
 .footer__label
 	width: 306px
 	float: left
@@ -43,6 +46,12 @@
 			&:hover
 				color: $gray-light_h
 				+transition(all .2s ease-in)
+.footer__meta
+	height: 19px
+	margin-bottom: 15px
+	text-transform: uppercase
+	color: #FFF
+	+pb
 .footer__tel
 	margin-right: 45px
 	display: inline-block
@@ -124,3 +133,33 @@
 		+s(i-star_a)
 	.i-star_un
 		+s(i-star_un)
+
+.footer__for-us
+	padding-right: 30px
+	line-height: 1.6
+.footer__step
+	padding-right: 40px
+	margin-bottom: 50px
+	line-height: 1.2
+.table
+	ul
+		margin-left: -8px
+		+clr
+	li
+		width: 32px
+		height: 32px
+		margin-left: 8px
+		margin-bottom: 8px
+		float: left
+		background: #6D6E70
+
+.footer__kont-item
+	margin-bottom: 35px
+.footer__kont-mail
+	text-decoration: none
+	color: $blue
+	+is
+	a
+		text-decoration: none
+		color: $blue
+		+is
