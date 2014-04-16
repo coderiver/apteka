@@ -829,6 +829,7 @@
 
 // user-data
 .user-data
+	margin-bottom: 50px
 .user-data__title
 	margin-bottom: 20px
 	font-size: 30px
@@ -854,6 +855,34 @@
 	padding: 0 16px
 	.input
 		width: 310px
+.user-data__checbox
+	height: 32px
+	line-height: 32px
+.user-data__save
+	padding: 5px 0
+	display: block
+	background: #cdcdcd
+	border: 1px solid #b3b3b3
+	+border-radius(3px)
+	text-align: center
+	text-transform: uppercase
+	color: #FFF
+	text-decoration: none 
+	+pb
+	&:hover
+		+opacity(0.8)
+	&:active
+		position: relative
+		top: 1px
+.user-data__recover-pass
+	height: 32px
+	line-height: 32px
+	float: left
+	color: $blue
+	font-size: 12px
+	+is
+	&:hover
+		text-decoration: none
 .input
 	padding: 6px 9px
 	border: 1px solid #939597
@@ -862,5 +891,15 @@
 	+is
 	+placeholder
 		color: #353C3F
+	&.is-pass
+		background: #ff9
+.checbox
+	input
+		margin-right: 5px
+		vertical-align: middle
+	span
+		color: #353C3F
+		font-size: 12px
+		+is
 
 	 
