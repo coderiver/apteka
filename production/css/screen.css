@@ -566,7 +566,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .num { width: 18px; height: 18px; line-height: 18px; display: inline-block; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; background: white; color: #486181; font-size: 12px; text-align: center; font-style: normal; font-family: "istokweb-bold", arial, sans-serif; }
 
 .profile-nav { padding: 15px 8px 20px; margin-bottom: 50px; background: #53bcaa; }
-.profile-nav a { padding: 10px 8px; display: block; color: white; text-decoration: none; font-family: "istokweb-bold", arial, sans-serif; }
+.profile-nav a { padding: 7px 8px; display: block; color: white; text-decoration: none; font-family: "istokweb-bold", arial, sans-serif; }
 .profile-nav .is-active { background: #1e6d5f; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
 
 .user-data { margin-bottom: 50px; }
