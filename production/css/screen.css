@@ -185,6 +185,8 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .footer__kont-mail { text-decoration: none; color: #0086ea; font-family: "istokweb-regular", arial, sans-serif; }
 .footer__kont-mail a { text-decoration: none; color: #0086ea; font-family: "istokweb-regular", arial, sans-serif; }
 
+.footer__step-date { margin-top: 5px; color: #0086ea; font-size: 12px; font-family: "istokweb-regular", arial, sans-serif; }
+
 .sexy-title-alphabet { margin-top: 16px; *zoom: 1; }
 .sexy-title-alphabet:after { content: " "; display: table; clear: both; }
 
@@ -560,3 +562,28 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .popup-product__label-item { text-decoration: none; color: #0086ea; font-family: "istokweb-regular", arial, sans-serif; }
 
 .more { color: #0086ea; text-decoration: none; font-family: "istokweb-regular", arial, sans-serif; }
+
+.num { width: 18px; height: 18px; line-height: 18px; display: inline-block; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; background: white; color: #486181; font-size: 12px; text-align: center; font-style: normal; font-family: "istokweb-bold", arial, sans-serif; }
+
+.profile-nav { padding: 15px 8px 20px; margin-bottom: 50px; background: #53bcaa; }
+.profile-nav a { padding: 10px 8px; display: block; color: white; text-decoration: none; font-family: "istokweb-bold", arial, sans-serif; }
+.profile-nav .is-active { background: #1e6d5f; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
+
+.user-data__title { margin-bottom: 20px; font-size: 30px; color: black; font-family: "istokweb-regular", arial, sans-serif; }
+
+.user-data__section { margin-bottom: 32px; }
+
+.user-data__row { margin-bottom: 16px; *zoom: 1; }
+.user-data__row:after { content: " "; display: table; clear: both; }
+
+.user-data__descr { width: 104px; height: 32px; line-height: 32px; float: left; color: #939597; text-align: right; font-family: "istokweb-regular", arial, sans-serif; }
+
+.user-data__input { width: 330px; height: 32px; float: left; padding: 0 16px; }
+.user-data__input .input { width: 310px; }
+
+.input { padding: 6px 9px; border: 1px solid #939597; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; color: #353c3f; font-family: "istokweb-regular", arial, sans-serif; }
+.input:-ms-input-placeholder { color: #353c3f; }
+.input:-moz-placeholder { color: #353c3f; }
+.input::-moz-placeholder { color: #353c3f; }
+.input::-webkit-input-placeholder { color: #353c3f; }
+.input::placeholder { color: #353c3f; }
