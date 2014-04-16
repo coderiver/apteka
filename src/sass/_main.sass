@@ -522,8 +522,12 @@
 	height: 280px
 	margin-top: 17px
 	margin-bottom: 8px
+.produce__right-label_mod
+	height: 195px
 .produce__right-descr
 	height: 225px
+.produce__right-descr_mod
+	height: 135px
 .produce__price
 .produce__price-old
 	display: inline-block
@@ -762,9 +766,39 @@
 
 // popup-product
 .popup-product
-	width: 614px
+	width: 584px
+	padding: 23px 15px
 	border: 1px solid #939597
+	+border-radius(5px)
+	+box-shadow(0 0 3px #939597)
 	position: absolute
 	top: 150px
 	left: 50%
 	margin-left: -306px
+.i-cross
+	position: absolute
+	top: 6px
+	right: 6px
+	cursor: pointer
+	+s(i-cross)
+.popup-product__content
+	margin-top: 10px
+	margin-bottom: 15px
+	color: #6D6E70
+	p
+		margin-bottom: 3px
+.popup-product__row
+	+clr
+.popup-product__label
+	width: 180px
+	float: left
+.popup-product__label-item
+	text-decoration: none
+	color: $blue
+	+is 
+.more
+	color: #0086EA
+	text-decoration: none
+	+is
+.i-cross
+
