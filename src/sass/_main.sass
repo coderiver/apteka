@@ -92,7 +92,7 @@
 		min-width: 816px
 		max-height: 336px
 .gallery__title 
-	margin-bottom: 60px 
+	margin-bottom: 69px 
 	margin-left: 25px
 	font-size: 56px
 	line-height: 1
@@ -103,8 +103,8 @@
 	width: 432px
 	position: absolute
 	left: 50%
-	top: 70px
-	margin-left: -216px
+	top: 80px
+	margin-left: -213px
 .gallery__prev, .gallery__next
 	position: absolute
 	z-index: 100
@@ -173,6 +173,7 @@
 		
 // partners
 .partners
+	margin-top: 6px
 	ul
 		+justify
 	li
@@ -193,7 +194,7 @@
 
 // product-list
 .product-list
-	margin-bottom: 30px
+	margin-bottom: 25px
 	position: relative
 	ul
 		+clr
@@ -202,19 +203,19 @@
 		float: left
 	.product-list__prev, .product-list__next
 		position: absolute
-		top: 85px
+		top: 81px
 		cursor: pointer
 		z-index: 1000
 	.product-list__prev
 		left: -24px
 		+s(i-arr2_l)
 	.product-list__next
-		right: -24px
+		right: -26px
 		+s(i-arr2_r)
 
 .label
 	display: inline-block
-	padding: 4px 10px
+	padding: 4px 12px
 	margin-bottom: 15px
 	+border-radius(3px)
 	text-transform: uppercase
@@ -228,7 +229,7 @@
 	background: #0086EA
 	
 .promo
-	margin-bottom: 20px
+	margin-bottom: 24px
 	background: #53BCAA
 	position: relative
 	+border-radius(5px)
@@ -283,6 +284,8 @@
 
 .novelty
 	+clr
+	.product
+		width: 174px
 .novelty__list
 	float: left
 	+clr
@@ -291,13 +294,13 @@
 .novelty__banner
 	overflow: hidden
 .novelty__banner-item
-	margin-bottom: 15px
+	margin-bottom: 16px
 	a, img
 		display: block
 
 // slist
 .slist
-	margin-bottom: 10px
+	margin-bottom: 34px
 	+clr
 	ul
 		width: 125px
@@ -306,34 +309,42 @@
 		&:first-child
 			margin-left: 0
 	li
+		line-height: 1.2
 	a
 		width: 125px
 		display: inline-block
 		color: #0086EA
 		line-height: 1
 		text-decoration: none 
+		font-size: 12px
 		+text-overflow
 		+is
 	.slist__title
-		margin: 15px 0
+		height: 32px
+		line-height: 32px
+		margin: 7px 0
 		.h3
 			color: #353C3F
 			text-transform: uppercase
 			font-size: 12px
-			+isb
+			line-height: 1
+			vertical-align: middle
+			display: inline-block
+			+pb
 
 // best
 .best
-	padding: 25px 0 35px 15px
+	padding: 25px 0 27px 15px
 	background: #FAA519
 	+clr
 .best__left
-	width: 416px
-	margin-right: 30px
+	width: 278px
+	margin-right: 50px
+	margin-left: -20px
 	float: left
 	+clr
 .best__note
-	width: 250px
+	width: 265px
 	float: right
 	font-size: 12px
 	line-height: 2
@@ -342,7 +353,7 @@
 .best__list 
 	overflow: hidden
 .best__list-title
-	margin-bottom: 30px
+	margin-bottom: 23px
 	color: #FFF
 	font-size: 28px
 	line-height: 1
@@ -350,18 +361,19 @@
 .best__list-row
 	+clr
 .best__list-item
-	width: 245px
-	margin-left: 16px
-	line-height: 1.6
+	width: 280px
+	margin-left: 29px
+	line-height: 1.45
 	float: left
-	color: #fff 
+	color: #fff
+	+is
 	&:first-child
 		margin-left: 0
 .best__list-meta
 	margin-bottom: 10px
 	color: #353C3F
 	text-transform: uppercase
-	font-weight: bold
+	+pb
 
 // subnav
 .subnav
@@ -429,6 +441,8 @@
 	font-size: 30px
 	line-height: 1
 	+is
+.goods__title_blue
+	color: $blue 
 .goods__meta
 	margin-top: 25px
 	margin-bottom: 15px
@@ -520,14 +534,14 @@
 	overflow: hidden
 .produce__right-label
 	height: 280px
-	margin-top: 17px
-	margin-bottom: 8px
+	margin-top: 12px
+	margin-bottom: 18px
 .produce__right-label_mod
 	height: 195px
 .produce__right-descr
 	height: 225px
 .produce__right-descr_mod
-	height: 135px
+	height: 149px
 .produce__price
 .produce__price-old
 	display: inline-block
@@ -578,10 +592,10 @@
 		display: inline-block
 		vertical-align: middle
 .produce__row
-	margin-bottom: 25px
+	margin-bottom: 21px
 	+clr
 	.star
-		margin-right: 15px
+		margin-right: 5px
 		float: left
 	.reviews
 		float: left
@@ -591,7 +605,7 @@
 	.input-mini
 		margin-right: 8px
 .produce__article
-	margin-bottom: 7px
+	margin-bottom: 10px
 	line-height: 1
 	color: #939597
 .produce__article-descr
@@ -616,7 +630,7 @@
 		+s(i-comm)
 // input-mini
 .input-mini
-	width: 42px
+	width: 45px
 	height: 48px
 	line-height: 46px
 	padding-right: 10px
@@ -661,7 +675,7 @@
 .btn-orange
 	height: 50px
 	line-height: 50px
-	padding: 0 20px
+	padding: 0 22px
 	background: url(../img/icons/btn_center-or.png) 0px 0px repeat-x
 	display: inline-block
 	vertical-align: middle
@@ -704,9 +718,11 @@
 		background: url(../img/icons/btn_right-gr.png) 0px 0px no-repeat
 
 .btn_basket
+	letter-spacing: 1px
 	.i-basket
-		margin-right: 15px
-		margin-top: -5px
+		margin-top: -10px
+		margin-right: 11px
+		margin-left: -4px
 
 .delivery
 	margin-bottom: 15px
@@ -810,31 +826,32 @@
 
 // popup-product
 .popup-product
-	width: 584px
-	padding: 23px 15px
+	width: 594px
+	padding: 2px 15px 19px 30px
 	border: 1px solid #939597
-	+border-radius(5px)
-	+box-shadow(0 0 3px #939597)
+	+border-radius(3px)
+	+box-shadow(0 0 3px #A8AAAD)
 	position: absolute
 	top: 150px
 	left: 50%
-	margin-left: -306px
+	margin-left: -298px
 .i-cross
 	position: absolute
-	top: 6px
-	right: 6px
+	top: 14px
+	right: 15px
 	cursor: pointer
 	+s(i-cross)
 .popup-product__content
 	margin-top: 10px
 	margin-bottom: 15px
 	color: #6D6E70
+	+is
 	p
 		margin-bottom: 3px
 .popup-product__row
 	+clr
 .popup-product__label
-	width: 180px
+	width: 190px
 	float: left
 .popup-product__label-item
 	text-decoration: none
