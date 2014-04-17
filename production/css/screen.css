@@ -478,7 +478,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 
 .produce__price-actual { color: #ed1b2d; font-size: 28px; font-family: "istokweb-bold", arial, sans-serif; }
 
-.produce__media { width: 278px; height: 278px; line-height: 278px; margin-bottom: 8px; border: 1px solid #939597; overflow: hidden; text-align: center; }
+.produce__media { width: 278px; height: 278px; line-height: 278px; margin-bottom: 8px; border: 1px solid #e6e6e6; overflow: hidden; text-align: center; }
 .produce__media img { display: inline-block; vertical-align: middle; }
 
 .produce__caro { *zoom: 1; font-size: 0; }
