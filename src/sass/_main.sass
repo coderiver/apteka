@@ -442,7 +442,8 @@
 	line-height: 1
 	+is
 .goods__title_blue
-	color: $blue 
+	color: $blue
+	letter-spacing: 0.2px
 .goods__meta
 	margin-top: 25px
 	margin-bottom: 15px
@@ -535,7 +536,7 @@
 .produce__right-label
 	height: 280px
 	margin-top: 12px
-	margin-bottom: 18px
+	margin-bottom: 16px
 .produce__right-label_mod
 	height: 195px
 .produce__right-descr
@@ -563,9 +564,9 @@
 	font-size: 28px
 	+isb
 .produce__media
-	width: 278px
-	height: 278px
-	line-height: 278px
+	width: 279px
+	height: 279px
+	line-height: 279px
 	margin-bottom: 8px
 	border: 1px solid #e6e6e6
 	overflow: hidden
@@ -595,7 +596,7 @@
 	margin-bottom: 21px
 	+clr
 	.star
-		margin-right: 5px
+		margin-right: 19px
 		float: left
 	.reviews
 		float: left
@@ -603,11 +604,12 @@
 	height: 64px
 	line-height: 64px
 	.input-mini
-		margin-right: 8px
+		margin-right: 11px
 .produce__article
 	margin-bottom: 10px
 	line-height: 1
 	color: #939597
+	+is
 .produce__article-descr
 	text-decoration: none
 	color: $blue
@@ -616,6 +618,7 @@
 .star
 	img
 		cursor: pointer
+		margin-left: -2px
 // reviews
 .reviews
 	position: relative
@@ -630,10 +633,10 @@
 		+s(i-comm)
 // input-mini
 .input-mini
-	width: 45px
-	height: 48px
+	width: 41px
+	height: 46px
 	line-height: 46px
-	padding-right: 10px
+	padding-right: 14px
 	text-align: right
 	vertical-align: middle
 	+border-radius(3px)
@@ -674,8 +677,8 @@
 // btn-orange
 .btn-orange
 	height: 50px
-	line-height: 50px
-	padding: 0 22px
+	line-height: 49px
+	padding: 0 17px
 	background: url(../img/icons/btn_center-or.png) 0px 0px repeat-x
 	display: inline-block
 	vertical-align: middle
@@ -683,24 +686,24 @@
 	color: #FFF
 	text-decoration: none
 	position: relative
-	+pb
+	+pb 
 	&:before, &:after
-		content: ""
-		width: 4px
+		content: "" 
+		width: 7px
 		height: 50px
-		position: absolute
+		position: absolute 
 		top: 0
 	&:before
 		background: url(../img/icons/btn_left-or.png) 0px 0px no-repeat
-		left: -2px
+		left: -7px
 	&:after
 		background: url(../img/icons/btn_right-or.png) 0px 0px no-repeat
-		right: -2px
+		right: -7px 
 	&:hover
 		+opacity(0.8)
 	&:active
 		top: 1px
-
+ 
 // btn-green
 .btn-green
 	background: url(../img/icons/btn_center-bl.png) 0px 0px repeat-x
@@ -827,7 +830,7 @@
 // popup-product
 .popup-product
 	width: 594px
-	padding: 2px 15px 19px 30px
+	padding: 4px 15px 19px 31px
 	border: 1px solid #939597
 	+border-radius(3px)
 	+box-shadow(0 0 3px #A8AAAD)
@@ -843,7 +846,7 @@
 	+s(i-cross)
 .popup-product__content
 	margin-top: 10px
-	margin-bottom: 15px
+	margin-bottom: 13px
 	color: #6D6E70
 	+is
 	p
@@ -853,6 +856,10 @@
 .popup-product__label
 	width: 190px
 	float: left
+.popup-product__label1
+	margin-right: 13px
+.popup-product__label2
+	width: 174px
 .popup-product__label-item
 	text-decoration: none
 	color: $blue
