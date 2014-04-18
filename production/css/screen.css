@@ -124,7 +124,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .nav .nav-i > ul > li.is-dropnav:hover .sub-nav { display: block; }
 .nav .nav-i > ul > li.is-dropnav div { margin: 4px 0 0; }
 .nav .nav-i > ul > li.is-dropnav div > a { height: 44px; -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; -ms-border-radius: 5px 5px 0 0; -o-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0; }
-.nav .nav-i > ul > li.is-dropnav .sub-nav { display: none; padding: 25px 32px 35px 24px; position: absolute !important; left: 0; right: 0; top: 44px; z-index: 2000; background: #1e6d5f; -webkit-border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px; -ms-border-radius: 0 0 5px 5px; -o-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px; color: white; }
+.nav .nav-i > ul > li.is-dropnav .sub-nav { display: none; padding: 11px 32px 42px 24px; position: absolute !important; left: -14px; right: -18px; top: 44px; z-index: 2000; background: #1e6d5f; -webkit-border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px; -ms-border-radius: 0 0 5px 5px; -o-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px; -webkit-box-shadow: 0px 1px 0 #cccccc; -moz-box-shadow: 0px 1px 0 #cccccc; box-shadow: 0px 1px 0 #cccccc; color: white; }
 .nav .nav-i > ul > li.is-dropnav .sub-nav:after { content: none; }
 .nav .nav-i > ul > li:first-child div:after { content: none; }
 .nav .sub-nav__left { width: 792px; float: left; *zoom: 1; }
@@ -469,7 +469,6 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .breadcrumbs li:first-child { margin-left: 0; }
 .breadcrumbs li:first-child a:after { content: none; }
 .breadcrumbs a { color: #7f7f7f; text-decoration: none; position: relative; }
-.breadcrumbs a:after { content: ""; background: url('../img/icons-s4383d9dee3.png') 0 -630px no-repeat; width: 7px; height: 50px; position: absolute; top: 6px; left: -23px; }
 
 .favorites { color: #0086ea; font-size: 12px; text-transform: uppercase; text-decoration: none; font-family: "PT Sans", sans-serif; font-weight: 700; }
 .favorites:before { content: ""; margin-right: 10px; display: inline-block; vertical-align: middle; background: url('../img/icons-s4383d9dee3.png') 0 -544px no-repeat; width: 18px; height: 16px; }
