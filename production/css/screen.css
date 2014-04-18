@@ -82,7 +82,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .logo { display: inline-block; position: relative; background: url('../img/icons-s4383d9dee3.png') 0 -70px no-repeat; width: 178px; height: 36px; font: 0/0 a; text-shadow: none; color: transparent; }
 
 .profile { max-width: 88px; position: relative; display: inline-block; color: white; }
-.profile .profile__ico { content: ""; background: url('../img/icons-s4383d9dee3.png') 0 -2008px no-repeat; width: 11px; height: 7px; position: absolute; top: 17px; right: -25px; z-index: 10; }
+.profile .profile__ico { content: ""; background: url('../img/icons-s4383d9dee3.png') 0 -2008px no-repeat; width: 11px; height: 7px; position: absolute; top: 19px; right: -20px; z-index: 10; }
 
 .profile__meta { font-size: 14px; text-transform: uppercase; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 
@@ -113,7 +113,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .nav .nav-i > ul > li { display: table-cell; }
 .nav .nav-i > ul > li > div { margin: 4px 0; position: relative; }
 .nav .nav-i > ul > li > div:after { content: ""; width: 4px; height: 4px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; background: #1e6d5f; position: absolute; left: -2px; top: 18px; }
-.nav .nav-i > ul > li > div > a { height: 40px; line-height: 37px; display: block; text-align: center; font-size: 14px; letter-spacing: 0.7px; color: white; text-decoration: none; position: relative; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
+.nav .nav-i > ul > li > div > a { height: 40px; line-height: 37px; display: block; text-align: center; font-size: 14px; color: white; text-decoration: none; position: relative; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 .nav .nav-i > ul > li > div > a:hover { background: #1e6d5f; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; padding: 0 3px; margin: 0 -3px; z-index: 3000; }
 .nav .nav-i > ul > li > div > a > span { line-height: 1.2; display: inline-block; vertical-align: middle; }
 .nav .nav-i > ul > li.is-active { background: white; }
