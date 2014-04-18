@@ -8,12 +8,23 @@
 		margin-left: auto
 		margin-right: auto
 	.footer__row
-		padding: 21px 0 22px
+		padding: 22px 0
 		+clr
 	.footer__row_mod
+		padding: 24px 0 24px
 		border-bottom: 2px solid #fff
 	.footer__row_mod2
 		border-top: 2px solid #fff
+	.footer__row_center
+		margin-left: 5px
+		.footer__label1
+			width: 312px
+		.footer__label2
+			width: 314px
+		.footer__label3
+			width: 312px
+		.footer__label4
+			width: 281px
 .footer__label
 	width: 306px
 	float: left
@@ -69,20 +80,22 @@
 	vertical-align: middle
 .footer__yandex
 	margin-top: 8px
-	margin-right: 65px
+	margin-right: 68px
 	display: inline-block
 	vertical-align: middle
 	.i-yandex
-		margin-right: 18px
+		margin-right: 20px
 		float: left
 		+s(i-yandex)
 	.star
+		margin-top: 3px
 		float: left
 .footer__delivery
+	margin-top: -8px
 	display: inline-block
 	vertical-align: middle
 .footer__delivery-title
-	margin-bottom: 8px
+	margin-bottom: 12px
 	text-transform: uppercase
 	color: #FFF
 	font-size: 14px
@@ -90,13 +103,14 @@
 	letter-spacing: 1.5px
 	+pb
 	.h4
+		letter-spacing: 0.02em
 		text-transform: uppercase
 		color: #FFF
 		font-size: 14px
 		+pb
 .delivery-form
 	width: 278px
-	padding: 0px
+	padding: 1px 0
 	background: #FFF
 	+border-radius(2px)
 	+box-shadow(0 0 0 1px #333840, inset 0 0 5px rgba(0,0,0, .25))
@@ -105,21 +119,22 @@
 	+clr
 	.delivery-form__input
 		width: 170px
-		padding: 3px 3px 3px 12px
+		padding: 2px 3px 2px 7px
 		height: 24px
 		float: left
 		font-size: 14px
 		color: $gray
-		+ps
+		+p
 		+placeholder
 			font-size: 14px
 			color: $gray
 			+ps
 	.delivery-form__btn
-		margin: 3px 3px 0 0
+		margin: 2px 3px 0 0
 		float: right
 		+s(btn-search2)
 		color: #FFF
+		font-size: 12px
 		+pb
 		+transition(all .2s ease-in)
 		&:hover
@@ -174,4 +189,13 @@
 	margin-top: 5px
 	color: $blue
 	font-size: 12px
-	+is 
+	+is
+
+.part1
+	margin-right: 14px
+.part2
+	margin-right: 17px
+.part3
+	margin-right: 11px
+.part4
+.part5

@@ -141,10 +141,15 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 /*------------------------- footer ------------------------- */
 .footer { background: #333840; color: rgba(255, 255, 255, 0.6); }
 .footer .footer-i { width: 1224px; padding: 0 18px; margin-left: auto; margin-right: auto; }
-.footer .footer__row { padding: 21px 0 22px; *zoom: 1; }
+.footer .footer__row { padding: 22px 0; *zoom: 1; }
 .footer .footer__row:after { content: " "; display: table; clear: both; }
-.footer .footer__row_mod { border-bottom: 2px solid white; }
+.footer .footer__row_mod { padding: 24px 0 24px; border-bottom: 2px solid white; }
 .footer .footer__row_mod2 { border-top: 2px solid white; }
+.footer .footer__row_center { margin-left: 5px; }
+.footer .footer__row_center .footer__label1 { width: 312px; }
+.footer .footer__row_center .footer__label2 { width: 314px; }
+.footer .footer__row_center .footer__label3 { width: 312px; }
+.footer .footer__row_center .footer__label4 { width: 281px; }
 
 .footer__label { width: 306px; float: left; *zoom: 1; }
 .footer__label:after { content: " "; display: table; clear: both; }
@@ -164,24 +169,24 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 
 .footer__social { margin-right: 124px; display: inline-block; vertical-align: middle; }
 
-.footer__yandex { margin-top: 8px; margin-right: 65px; display: inline-block; vertical-align: middle; }
-.footer__yandex .i-yandex { margin-right: 18px; float: left; background: url('../img/icons-s4383d9dee3.png') 0 -774px no-repeat; width: 62px; height: 40px; }
-.footer__yandex .star { float: left; }
+.footer__yandex { margin-top: 8px; margin-right: 68px; display: inline-block; vertical-align: middle; }
+.footer__yandex .i-yandex { margin-right: 20px; float: left; background: url('../img/icons-s4383d9dee3.png') 0 -774px no-repeat; width: 62px; height: 40px; }
+.footer__yandex .star { margin-top: 3px; float: left; }
 
-.footer__delivery { display: inline-block; vertical-align: middle; }
+.footer__delivery { margin-top: -8px; display: inline-block; vertical-align: middle; }
 
-.footer__delivery-title { margin-bottom: 8px; text-transform: uppercase; color: white; font-size: 14px; line-height: 1; letter-spacing: 1.5px; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
-.footer__delivery-title .h4 { text-transform: uppercase; color: white; font-size: 14px; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
+.footer__delivery-title { margin-bottom: 12px; text-transform: uppercase; color: white; font-size: 14px; line-height: 1; letter-spacing: 1.5px; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
+.footer__delivery-title .h4 { letter-spacing: 0.02em; text-transform: uppercase; color: white; font-size: 14px; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 
-.delivery-form { width: 278px; padding: 0px; background: white; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: 0 0 0 1px #333840, inset 0 0 5px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 0 0 1px #333840, inset 0 0 5px rgba(0, 0, 0, 0.25); box-shadow: 0 0 0 1px #333840, inset 0 0 5px rgba(0, 0, 0, 0.25); overflow: hidden; float: right; *zoom: 1; }
+.delivery-form { width: 278px; padding: 1px 0; background: white; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: 0 0 0 1px #333840, inset 0 0 5px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 0 0 1px #333840, inset 0 0 5px rgba(0, 0, 0, 0.25); box-shadow: 0 0 0 1px #333840, inset 0 0 5px rgba(0, 0, 0, 0.25); overflow: hidden; float: right; *zoom: 1; }
 .delivery-form:after { content: " "; display: table; clear: both; }
-.delivery-form .delivery-form__input { width: 170px; padding: 3px 3px 3px 12px; height: 24px; float: left; font-size: 14px; color: #7f7f7f; font-family: "PT Sans Caption", sans-serif; font-weight: 400; }
+.delivery-form .delivery-form__input { width: 170px; padding: 2px 3px 2px 7px; height: 24px; float: left; font-size: 14px; color: #7f7f7f; font-family: "PT Sans", sans-serif; font-weight: 400; }
 .delivery-form .delivery-form__input:-ms-input-placeholder { font-size: 14px; color: #7f7f7f; font-family: "PT Sans Caption", sans-serif; font-weight: 400; }
 .delivery-form .delivery-form__input:-moz-placeholder { font-size: 14px; color: #7f7f7f; font-family: "PT Sans Caption", sans-serif; font-weight: 400; }
 .delivery-form .delivery-form__input::-moz-placeholder { font-size: 14px; color: #7f7f7f; font-family: "PT Sans Caption", sans-serif; font-weight: 400; }
 .delivery-form .delivery-form__input::-webkit-input-placeholder { font-size: 14px; color: #7f7f7f; font-family: "PT Sans Caption", sans-serif; font-weight: 400; }
 .delivery-form .delivery-form__input::placeholder { font-size: 14px; color: #7f7f7f; font-family: "PT Sans Caption", sans-serif; font-weight: 400; }
-.delivery-form .delivery-form__btn { margin: 3px 3px 0 0; float: right; background: url('../img/icons-s4383d9dee3.png') 0 -1579px no-repeat; width: 88px; height: 25px; color: white; font-family: "PT Sans Caption", sans-serif; font-weight: 700; -webkit-transition: all 0.2s ease-in; -moz-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; transition: all 0.2s ease-in; }
+.delivery-form .delivery-form__btn { margin: 2px 3px 0 0; float: right; background: url('../img/icons-s4383d9dee3.png') 0 -1579px no-repeat; width: 88px; height: 25px; color: white; font-size: 12px; font-family: "PT Sans Caption", sans-serif; font-weight: 700; -webkit-transition: all 0.2s ease-in; -moz-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; transition: all 0.2s ease-in; }
 .delivery-form .delivery-form__btn:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; -webkit-transition: all 0.2s ease-in; -moz-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; transition: all 0.2s ease-in; }
 .delivery-form .delivery-form__btn:active { position: relative; top: 1px; }
 
@@ -206,6 +211,12 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .footer__kont-mail a { text-decoration: none; color: #0086ea; font-family: "istokweb-regular", arial, sans-serif; }
 
 .footer__step-date { margin-top: 5px; color: #0086ea; font-size: 12px; font-family: "istokweb-regular", arial, sans-serif; }
+
+.part1 { margin-right: 14px; }
+
+.part2 { margin-right: 17px; }
+
+.part3 { margin-right: 11px; }
 
 .sexy-title-alphabet { margin-top: 18px; *zoom: 1; }
 .sexy-title-alphabet:after { content: " "; display: table; clear: both; }
@@ -233,7 +244,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 
 .product { width: 180px; margin: 0 auto; text-align: center; }
 
-.product__img { width: 177px; height: 177px; line-height: 177px; display: inline-block; overflow: hidden; margin-bottom: -3px; text-align: center; position: relative; }
+.product__img { width: 177px; height: 177px; line-height: 177px; display: inline-block; overflow: hidden; margin-bottom: -2px; text-align: center; position: relative; }
 .product__img img { max-width: 100%; display: inline-block; vertical-align: middle; }
 .product__img .label { position: absolute; bottom: 9px; left: 0; margin-bottom: 0; }
 
@@ -290,7 +301,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 
 .payment-methods { *zoom: 1; }
 .payment-methods:after { content: " "; display: table; clear: both; }
-.payment-methods li { margin: 0 7px 14px; float: left; }
+.payment-methods li { margin: 0 0px 14px; float: left; }
 
 .wrap-gallery { margin-top: 30px; *zoom: 1; }
 .wrap-gallery:after { content: " "; display: table; clear: both; }
@@ -403,7 +414,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .best__left { width: 278px; margin-right: 50px; margin-left: -20px; float: left; *zoom: 1; }
 .best__left:after { content: " "; display: table; clear: both; }
 
-.best__note { width: 265px; float: right; font-size: 12px; line-height: 2; color: rgba(255, 255, 255, 0.5); font-family: "istokweb-regular", arial, sans-serif; }
+.best__note { width: 265px; float: right; font-size: 12px; line-height: 1.8; color: rgba(255, 255, 255, 0.5); font-family: "istokweb-regular", arial, sans-serif; }
 
 .best__list { overflow: hidden; }
 
