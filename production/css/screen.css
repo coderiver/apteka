@@ -112,7 +112,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .nav .nav-i > ul { display: table-row; }
 .nav .nav-i > ul > li { display: table-cell; }
 .nav .nav-i > ul > li > div { margin: 4px 0; position: relative; }
-.nav .nav-i > ul > li > div:after { content: ""; width: 4px; height: 4px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; background: #1e6d5f; position: absolute; left: -2px; top: 18px; }
+.nav .nav-i > ul > li > div:after { content: ""; width: 3px; height: 3px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; background: #1e6d5f; position: absolute; left: -2px; top: 18px; }
 .nav .nav-i > ul > li > div > a { height: 40px; line-height: 37px; display: block; text-align: center; font-size: 14px; color: white; text-decoration: none; position: relative; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 .nav .nav-i > ul > li > div > a:hover { background: #1e6d5f; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; padding: 0 3px; margin: 0 -3px; z-index: 3000; }
 .nav .nav-i > ul > li > div > a > span { line-height: 1.2; display: inline-block; vertical-align: middle; }
@@ -282,7 +282,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .alphabet-filter { height: 32px; line-height: 32px; overflow: hidden; }
 .alphabet-filter ul { *zoom: 1; }
 .alphabet-filter ul:after { content: " "; display: table; clear: both; }
-.alphabet-filter li { margin: 0 6px; float: left; }
+.alphabet-filter li { margin: 0 5px; float: left; }
 .alphabet-filter a { font-size: 12px; text-decoration: none; color: #6d6e70; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 .alphabet-filter .alphabet-filter__border { margin-right: 27px; position: relative; }
 .alphabet-filter .alphabet-filter__border:after { content: ""; width: 15px; height: 1px; background: #939597; position: absolute; top: 15px; right: -25px; }
@@ -376,9 +376,12 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .novelty:after { content: " "; display: table; clear: both; }
 .novelty .product { width: 174px; }
 
-.novelty__list { float: left; *zoom: 1; }
+.novelty__list { margin-left: -15px; float: left; *zoom: 1; }
 .novelty__list:after { content: " "; display: table; clear: both; }
-.novelty__list li { float: left; }
+.novelty__list li { width: 208px; float: left; }
+.novelty__list .product__img { margin-bottom: 0; }
+.novelty__list .product__title { font-family: "istok", arial, sans-serif; }
+.novelty__list .product__title a { font-family: "istok", arial, sans-serif; }
 
 .novelty__banner { overflow: hidden; }
 
