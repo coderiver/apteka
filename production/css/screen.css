@@ -229,9 +229,9 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .sexy-title_mod { background: #53bcaa; }
 .sexy-title_mod:before { width: 60px; }
 
-.sexy-title__title { height: 32px; line-height: 32px; letter-spacing: 1.4px; color: white; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
+.sexy-title__title { height: 32px; line-height: 32px; letter-spacing: 0.045em; color: white; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 
-.product { width: 177px; padding: 0 15px; text-align: center; }
+.product { width: 180px; margin: 0 auto; text-align: center; }
 
 .product__img { width: 177px; height: 177px; line-height: 177px; display: inline-block; overflow: hidden; margin-bottom: -3px; text-align: center; position: relative; }
 .product__img img { max-width: 100%; display: inline-block; vertical-align: middle; }
@@ -245,7 +245,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .product__price { width: 95px; float: right; padding-left: 6px; color: black; font-family: "istokweb-bold", arial, sans-serif; position: relative; }
 .product__price:after { content: ""; display: inline-block; margin-left: 10px; background: url('../img/icons-s4383d9dee3.png') 0 -1687px no-repeat; width: 19px; height: 16px; }
 
-.product__title { color: #0086ea; font-weight: 400; text-align: left; font-family: "istokweb-regular", arial, sans-serif; }
+.product__title { color: #0086ea; font-weight: 400; line-height: 1.2; margin-bottom: 5px; text-align: left; font-family: "istokweb-regular", arial, sans-serif; }
 .product__title a { color: #0086ea; text-decoration: none; font-family: "istokweb-regular", arial, sans-serif; }
 
 .product_discount .product__price { color: #ed1b2d; }
@@ -334,15 +334,16 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .partners li a:hover { text-decoration: none; }
 .partners .partners__all { line-height: 99px; }
 
-.product-list { margin-bottom: 25px; position: relative; }
+.product-list { margin-bottom: 25px; position: relative; margin-left: -15px; margin-right: -15px; }
+.product-list .cycle-slideshow { margin-right: -15px; }
 .product-list ul { *zoom: 1; }
 .product-list ul:after { content: " "; display: table; clear: both; }
-.product-list li { width: 202px; float: left; }
+.product-list li { width: 208px; float: left; }
 .product-list .product-list__prev, .product-list .product-list__next { position: absolute; top: 81px; cursor: pointer; z-index: 1000; }
-.product-list .product-list__prev { left: -24px; background: url('../img/icons-s4383d9dee3.png') 0 -1770px no-repeat; width: 8px; height: 16px; }
-.product-list .product-list__next { right: -26px; background: url('../img/icons-s4383d9dee3.png') 0 -1744px no-repeat; width: 8px; height: 16px; }
+.product-list .product-list__prev { left: -8px; background: url('../img/icons-s4383d9dee3.png') 0 -1770px no-repeat; width: 8px; height: 16px; }
+.product-list .product-list__next { right: -11px; background: url('../img/icons-s4383d9dee3.png') 0 -1744px no-repeat; width: 8px; height: 16px; }
 
-.label { display: inline-block; padding: 4px 12px; margin-bottom: 15px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; text-transform: uppercase; font-size: 11px; line-height: 1; color: white; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
+.label { display: inline-block; padding: 3px 10px; margin-bottom: 15px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; text-transform: uppercase; font-size: 11px; line-height: 1; color: white; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 
 .label_discount { background: #ed1b2d; }
 
@@ -357,14 +358,19 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .promo__num { height: 56px; float: left; }
 .promo__num ul { *zoom: 1; }
 .promo__num ul:after { content: " "; display: table; clear: both; }
-.promo__num li { width: 204px; height: 56px; line-height: 56px; float: left; text-align: center; }
+.promo__num li { width: 204px; height: 56px; line-height: 56px; float: left; position: relative; text-align: center; }
 .promo__num li .ico { margin-right: 15px; }
-.promo__num .promo__item-descr { vertical-align: middle; display: inline-block; line-height: 1.2; color: white; }
-.promo__num .promo__item-meta { text-transform: uppercase; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
+.promo__num .promo__item-descr { vertical-align: middle; display: inline-block; text-align: left; line-height: 1.2; color: white; font-family: "istokweb-regular", arial, sans-serif; }
+.promo__num .promo__item-meta { line-height: 1; text-transform: uppercase; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
+
+.promo__num .promo__item2 .i-ico2 { margin-left: -25px; }
+.promo__num .promo__item3 .i-ico3 { margin-right: 18px; margin-bottom: 5px; }
+.promo__num .promo__item4 .i-ico4 { margin-left: 16px; }
 
 .promo__tel { height: 56px; line-height: 56px; overflow: hidden; font-size: 28px; text-align: center; color: white; font-family: "istokweb-regular", arial, sans-serif; }
 .promo__tel .ico { margin-right: 15px; }
-.promo__tel .promo__tel-num { height: 56px; line-height: 56px; display: inline-block; }
+
+.promo__tel-num { height: 56px; line-height: 56px; display: inline-block; }
 
 .novelty { *zoom: 1; }
 .novelty:after { content: " "; display: table; clear: both; }

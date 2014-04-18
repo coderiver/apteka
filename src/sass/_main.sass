@@ -196,10 +196,14 @@
 .product-list
 	margin-bottom: 25px
 	position: relative
+	margin-left: -15px
+	margin-right: -15px
+	.cycle-slideshow
+		margin-right: -15px
 	ul
 		+clr
 	li
-		width: 202px
+		width: 208px
 		float: left
 	.product-list__prev, .product-list__next
 		position: absolute
@@ -207,17 +211,17 @@
 		cursor: pointer
 		z-index: 1000
 	.product-list__prev
-		left: -24px
+		left: -8px
 		+s(i-arr2_l)
 	.product-list__next
-		right: -26px
+		right: -11px
 		+s(i-arr2_r)
 
 .label
 	display: inline-block
-	padding: 4px 12px
+	padding: 3px 10px
 	margin-bottom: 15px
-	+border-radius(3px)
+	+border-radius(2px)
 	text-transform: uppercase
 	font-size: 11px
 	line-height: 1
@@ -256,17 +260,33 @@
 		height: 56px
 		line-height: 56px
 		float: left
+		position: relative
 		text-align: center
 		.ico
 			margin-right: 15px
 	.promo__item-descr
 		vertical-align: middle
 		display: inline-block
+		text-align: left
 		line-height: 1.2
 		color: #FFF
+		+is
 	.promo__item-meta
+		line-height: 1
 		text-transform: uppercase
 		+pb
+.promo__num
+	.promo__item1
+	.promo__item2
+		.i-ico2
+			margin-left: -25px
+	.promo__item3
+		.i-ico3
+			margin-right: 18px
+			margin-bottom: 5px
+	.promo__item4
+		.i-ico4
+			margin-left: 16px
 .promo__tel
 	height: 56px
 	line-height: 56px
@@ -277,10 +297,10 @@
 	+is
 	.ico
 		margin-right: 15px
-	.promo__tel-num
-		height: 56px
-		line-height: 56px
-		display: inline-block
+.promo__tel-num
+	height: 56px
+	line-height: 56px
+	display: inline-block
 
 .novelty
 	+clr
