@@ -417,9 +417,18 @@
 		display: block
 		color: #fff
 		text-decoration: none 
+.subnav_mod
+	padding: 10px 15px 10px
+	.subnav__title
+		margin-bottom: 12px
+	li
+		border-bottom: none
+	a
+		margin: 5px 0
 .subnav__title
 	margin-bottom: 20px
 	text-decoration: none
+	font-size: 14px
 	+pb
 	font-weight: bold
 	text-decoration: underline
@@ -530,6 +539,14 @@
 		color: $gray
 		text-decoration: none 
 		position: relative
+		&:before
+			content: ""
+			position: absolute
+			top: 6px
+			left: -22px
+			+s(i-arr_bc)
+			&:first-child
+				content: none
 
 // favorites
 .favorites
@@ -1070,6 +1087,106 @@
 	color: #353c3f
 	resize: vertical
 	+is
+
+.checkbox
+	height: 24px
+	line-height: 24px
+	position: relative
+	display: block
+	vertical-align: middle
+	cursor: pointer
+	span
+		color: #4C4C4C
+		display: inline-block
+		margin-left: 8px
+	input
+		+opacity(0)
+	input + span
+		.checkbox__ico
+			content: ""
+			position: absolute
+			top: 3px
+			left: -1px
+			width: 16px
+			height: 16px
+			border: 1px solid #b9bbbd
+			background: #f8f8f9
+			+box
+			+border-radius(3px)
+	input:checked + span
+		.checkbox__ico
+			&:after
+				content: ""
+				position: absolute
+				top: 3px
+				left: 3px
+				+s(i-checked)
+				z-index: 666
+
+// cat
+.cat
+	border-bottom: 1px solid #ccc
+	padding-bottom: 11px
+	.checkbox
+		margin-left: 2px
+.cat__title
+	margin-bottom: 5px
+	+is
+	font-weight: 400
+
+// brand
+.brand
+	margin-bottom: 61px
+.brand__meta
+	margin-bottom: 15px
+	color: #7F7F7F
+	+is
+.brand__title
+	margin-bottom: 9px
+	font-size: 30px
+	+is
+.brand__block
+
+.brand__letter
+	margin-bottom: 10px
+	padding-bottom: 7px
+	border-bottom: 1px solid #ccc
+	color: #353C3F 
+	+pb
+.brand__list
+	+clr
+.brand__list-item
+	width: 160px
+	margin-left: 30px
+	float: left
+	&:first-child
+		margin-left: 0
+	li
+		margin-bottom: 3px
+	a
+		text-decoration: none
+		color: #0086EA 
+		+is
+
+.box
+	margin-bottom: 15px
+	padding: 15px 15px 2px
+	border: 1px solid #E9EAE9
+	+border-radius(5px)
+.box__in
+	.checkbox
+		margin-left: 2px
+
+.banner-block 
+	+clr
+	.banner-mid
+		width: 528px
+		float: left
+	.novelty__banner
+		overflow: hidden
+
+	
+
 
 
 	 
