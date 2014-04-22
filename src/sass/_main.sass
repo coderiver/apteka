@@ -319,13 +319,28 @@
 		font-family: "istok", arial, sans-serif
 		a
 			font-family: "istok", arial, sans-serif
+.product__row-label
+	width: 208px
+	height: 18px
+	position: absolute
+	bottom: -9px
+	.label
+		margin-right: 5px
+		position: static
+		float: left
+	.star
+		width: 90px
+		float: left
+		line-height: 1
 .novelty__banner
 	overflow: hidden
+.novelty__banner_mod
+	.novelty__banner-item
+		margin-bottom: 0
 .novelty__banner-item
 	margin-bottom: 16px
 	a, img
 		display: block
-
 // slist
 .slist
 	margin-bottom: 34px
@@ -1177,13 +1192,21 @@
 	.checkbox
 		margin-left: 2px
 
-.banner-block 
+.banner-block
+	margin-bottom: 20px
 	+clr
 	.banner-mid
 		width: 528px
 		float: left
 	.novelty__banner
 		overflow: hidden
+
+.list-product
+.list-product__in
+	+clr
+	li
+		width: 231px
+		float: left
 
 	
 
