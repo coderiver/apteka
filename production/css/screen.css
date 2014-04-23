@@ -729,13 +729,15 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .cat { border-bottom: 1px solid #cccccc; padding-bottom: 11px; }
 .cat .checkbox { margin-left: 2px; }
 
-.cat__title { margin-bottom: 5px; font-family: "istokweb-regular", arial, sans-serif; font-weight: 400; }
+.cat__title { margin-bottom: 5px; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 
 .brand { margin-bottom: 61px; }
 
 .brand__meta { margin-bottom: 15px; color: #7f7f7f; font-family: "istokweb-regular", arial, sans-serif; }
 
 .brand__title { margin-bottom: 9px; font-size: 30px; font-family: "istokweb-regular", arial, sans-serif; }
+
+.brand__block { margin-bottom: 10px; }
 
 .brand__letter { margin-bottom: 10px; padding-bottom: 7px; border-bottom: 1px solid #cccccc; color: #353c3f; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 
@@ -744,8 +746,8 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 
 .brand__list-item { width: 160px; margin-left: 30px; float: left; }
 .brand__list-item:first-child { margin-left: 0; }
-.brand__list-item li { margin-bottom: 3px; }
-.brand__list-item a { text-decoration: none; color: #0086ea; font-family: "istokweb-regular", arial, sans-serif; }
+.brand__list-item li { margin-bottom: 8px; line-height: 1; }
+.brand__list-item a { text-decoration: none; color: #0086ea; line-height: 1.2; font-family: "istokweb-regular", arial, sans-serif; }
 
 .box { margin-bottom: 15px; padding: 15px 15px 2px; border: 1px solid #e9eae9; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
 
