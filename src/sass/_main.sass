@@ -28,7 +28,7 @@
 	width: 275px
 	+clr
 	li
-		margin: 0 4px 10px
+		margin: 0 4px 3px
 		float: left
 	a
 		text-decoration: none
@@ -261,9 +261,8 @@
 		line-height: 56px
 		float: left
 		position: relative
-		text-align: center
-		.ico
-			margin-right: 15px
+	.ico
+		position: absolute
 	.promo__item-descr
 		vertical-align: middle
 		display: inline-block
@@ -277,26 +276,45 @@
 		+pb
 .promo__num
 	.promo__item1
+		width: 159px
+		padding-left: 81px
+		.i-ico1
+			top: 19px
+			left: 41px
 	.promo__item2
+		width: 169px
+		padding-left: 42px
 		.i-ico2
-			margin-left: -25px
+			top: 13px
+			left: 1px
 	.promo__item3
+		width: 164px
+		padding-left: 46px
 		.i-ico3
-			margin-right: 18px
-			margin-bottom: 5px
+			left: 3px
+			top: 15px
 	.promo__item4
+		width: 96px
+		padding-left: 46px
 		.i-ico4
-			margin-left: 16px
+			left: 5px
+			top: 12px
+
 .promo__tel
 	height: 56px
 	line-height: 56px
+	padding-left: 70px
+	letter-spacing: 0.05em
+	position: relative
 	overflow: hidden
 	font-size: 28px
 	text-align: center
 	color: #FFF
 	+is
 	.ico
-		margin-right: 15px
+		position: absolute
+		top: 12px
+		left: 69px
 .promo__tel-num
 	height: 56px
 	line-height: 56px
@@ -374,7 +392,9 @@
 			vertical-align: middle
 			display: inline-block
 			+pb
-
+.slist__mod
+	a
+		color: #BC5609 
 // best
 .best
 	padding: 25px 0 27px 15px
@@ -1130,6 +1150,8 @@
 			+border-radius(3px)
 	input:checked + span
 		.checkbox__ico
+			background: #36bfa7
+			border-color: #268573
 			&:after
 				content: ""
 				position: absolute
