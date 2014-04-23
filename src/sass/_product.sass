@@ -24,7 +24,7 @@
 .product__row
 	+clr
 .product__price-old
-	width: 71px 
+	width: 70px 
 	height: 22px
 	line-height: 22px
 	float: left
@@ -35,22 +35,28 @@
 	+text-overflow
 	+is
 .product__price
-	width: 95px
+	width: 85px
+	height: 22px
+	line-height: 22px
 	float: right
 	padding-left: 6px
-	color: #000 
+	font-size: 12px
+	color: #000
 	+isb
 	position: relative
+	text-align: left
 	&:after
 		content: ""
-		display: inline-block
-		margin-left: 10px
+		position: absolute
+		right: 3px
+		top: 0
 		+s(i-basket2)
 .product__title
 	color: #0086EA
 	font-weight: 400
+	font-size: 13px
 	line-height: 1.2
-	margin-bottom: 5px
+	margin-bottom: 8px
 	text-align: left
 	+is
 	a
