@@ -171,11 +171,11 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 
 .footer__meta { height: 19px; margin-bottom: 15px; text-transform: uppercase; color: white; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 
-.footer__tel { padding-left: 4px; margin-right: 45px; letter-spacing: 1.5px; display: inline-block; vertical-align: middle; font-size: 28px; color: white; font-family: "istokweb-regular", arial, sans-serif; }
+.footer__tel { padding-left: 4px; margin-right: 34px; letter-spacing: 1.5px; display: inline-block; vertical-align: middle; font-size: 28px; color: white; font-family: "istokweb-regular", arial, sans-serif; }
 
-.footer__social { margin-right: 124px; display: inline-block; vertical-align: middle; }
+.footer__social { margin-right: 121px; display: inline-block; vertical-align: middle; }
 
-.footer__yandex { margin-top: 8px; margin-right: 68px; display: inline-block; vertical-align: middle; }
+.footer__yandex { margin-top: 8px; margin-right: 58px; display: inline-block; vertical-align: middle; }
 .footer__yandex .i-yandex { margin-right: 20px; float: left; background: url('../img/icons-sf33909b338.png') 0 -833px no-repeat; width: 62px; height: 40px; }
 .footer__yandex .star { margin-top: 3px; float: left; }
 
@@ -795,3 +795,11 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .list-product__in li:first-child { margin-left: 0; }
 
 .list-product_mod li { width: 150px; }
+
+.pagi { text-align: center; padding: 32px 0; font-size: 15px; }
+.pagi a { display: inline-block; height: 25px; text-decoration: none; color: #4d4d4d; font-weight: bold; padding: 0 8px; line-height: 25px; margin-right: 12px; }
+.pagi a.is-active { color: white; background: #f96c37; }
+.pagi .pagi__next, .pagi .pagi__prev { color: #228ae4; font-weight: normal; }
+
+.lists .list-product { margin-bottom: 0; }
+.lists .list-product__in { border-bottom: 1px solid #cccccc; }
