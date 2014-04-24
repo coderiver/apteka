@@ -3,6 +3,9 @@
 	width: 180px
 	margin: 0 auto
 	text-align: center
+.product_discount
+	.product__price
+		color: #ED1B2D
 .product__img
 	width: 177px
 	height: 177px
@@ -21,6 +24,11 @@
 		bottom: 9px
 		left: 0
 		margin-bottom: 0
+.product__img-heart
+	+s(i-heart)
+	position: absolute
+	top: 0
+	right: 0
 .product__row
 	+clr
 .product__price-old
@@ -51,6 +59,10 @@
 		right: 3px
 		top: 0
 		+s(i-basket2)
+	&.product__price_black
+		color: #000
+.product__price_big
+	font-size: 16px
 .product__title
 	color: #0086EA
 	font-weight: 400
@@ -63,9 +75,6 @@
 		color: #0086EA
 		text-decoration: none
 		+is
-.product_discount
-	.product__price
-		color: #ED1B2D
 .product_big
 	width: 208px
 	margin: 0
