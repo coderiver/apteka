@@ -879,7 +879,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .is-list .product__row_cat .product__price-old, .is-shortlist .product__row_cat .product__price-old { position: absolute; left: 0; top: 0; font-size: 13px; color: gray; }
 .is-list .pagi, .is-shortlist .pagi { border-top: none; padding-top: 0; }
 
-.is-shortlist { margin-top: -13px; }
+.is-shortlist { margin-top: -21px; }
 .is-shortlist .product__row-label { display: inline-block; }
 .is-shortlist .for-list { display: none; }
 .is-shortlist .product { padding: 8px 0; text-align: left; padding: 0; height: 40px; }
