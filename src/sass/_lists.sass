@@ -1,10 +1,63 @@
 // sorting
+.checkbox_right
+	float: right
+	position: relative
+	top: -3px 
+.sort
+	font-size: 0
+	dt,dd
+		display: inline-block
+		font-size: 13px 
+	dt
+		color: #000000 
+		margin-right: 27px 
+	dd
+		color: #808080
+		cursor: pointer
+		margin-right: 27px 
+		&.is-active
+			span
+				color: #E4512B
+				border-bottom: 1px dotted #E4512B  
+	.is-up,.is-down
+		display: inline-block
+		margin-left: 4px 
+		position: relative
+		top: 2px 
+	.is-up
+		+s(sort__up)
+	.is-down
+		+s(sort__down)
 // view types
+.lists-top
+	.view
+		float: right 
+		margin-top: 6px 
+	.h2
+		margin-bottom: 11px 
+.view
+	font-size: 0
+	text-align: right
+	a
+		display: inline-block
+		padding: 7px 
+		i
+			display: inline-block
+	@each $s in grid,list,shortlist
+		.view__#{$s}
+			i
+				+s(view__#{$s})
+			&.is-active,&:hover
+				background: #3EB29C 
+				i
+					+s(view__#{$s}a)
 //pagination
 .pagi
 	text-align: center
 	padding: 32px 0
 	font-size: 15px 
+	border-top: 1px solid #CCCCCC
+	margin-top: 24px  
 	a
 		display: inline-block
 		height: 25px 
@@ -21,10 +74,14 @@
 		color: #228AE4 
 		font-weight: normal
 // checkbox at top
-
+.sep
+	+s(sep)
+	display: block
+	margin: 24px 0 
 .lists
 	.list-product
 		margin-bottom: 0 
 	.list-product__in
-		border-bottom: 1px solid #ccc 
+		&.is-last
+			margin-bottom: 0   
 // switching view types for products
