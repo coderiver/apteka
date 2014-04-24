@@ -1,3 +1,13 @@
+//override
+.lists-top
+	border-bottom: 1px solid #CCC 
+	padding-bottom: 12px 
+	margin-bottom: 20px 
+	.view
+		float: right 
+		margin-top: 6px 
+	.h2
+		margin-bottom: 11px 
 // sorting
 .checkbox_right
 	float: right
@@ -29,12 +39,6 @@
 	.is-down
 		+s(sort__down)
 // view types
-.lists-top
-	.view
-		float: right 
-		margin-top: 6px 
-	.h2
-		margin-bottom: 11px 
 .view
 	font-size: 0
 	text-align: right
@@ -84,4 +88,40 @@
 	.list-product__in
 		&.is-last
 			margin-bottom: 0   
+.is-grid
+	.product__title
+		span
+			display: none
+	.for-list
+		display: none
+.is-list,.is-shortlist
+	.sep
+		display: none
+	.list-product__in
+		li
+			float: none
+			display: block
+			width: auto
+	.product
+		width: auto 
+		border-bottom: 1px solid #E5E5E5
+		+clr 
+		padding: 12px 0 
+	.product__img
+		float: left
+		width: 114px 
+		margin-right: 10px 
+		text-align: center
+		height: 106px 
+		line-height: 106px 
+	.product__title
+		font-size: 19px 
+		span
+			display: inline-block
+			font-size: 13px 
+			color: #939597 
+			margin-left: 23px 
+	.product__row-label
+		display: none
+.is-shortlist
 // switching view types for products
