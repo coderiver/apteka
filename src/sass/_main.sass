@@ -219,7 +219,7 @@
 
 .label
 	display: inline-block
-	padding: 3px 10px
+	padding: 3px 8px
 	margin-bottom: 15px
 	+border-radius(2px)
 	text-transform: uppercase
@@ -233,6 +233,8 @@
 	background: #A80081 
 .label_new
 	background: #0086EA
+.label_orange
+	background: #ED7E00 
 	
 .promo
 	margin-bottom: 24px
@@ -339,19 +341,29 @@
 		font-family: "istok", arial, sans-serif
 		a
 			font-family: "istok", arial, sans-serif
+
 .product__row-label
 	width: 208px
 	height: 18px
 	position: absolute
-	bottom: -9px
+	bottom: -10px
 	.label
-		margin-right: 5px
+		margin-top: 2px
+		margin-right: 1px
 		position: static
 		float: left
 	.star
 		width: 90px
+		margin-top: 2px
 		float: left
 		line-height: 1
+		img
+			margin-left: -5px
+.product__row-label_align
+	text-align: left
+.product__title_cat
+	margin-top: 3px
+	margin-bottom: 5px
 .novelty__banner
 	overflow: hidden
 .novelty__banner_mod
@@ -455,7 +467,8 @@
 		color: #fff
 		text-decoration: none 
 .subnav_mod
-	padding: 10px 15px 10px
+	padding: 10px 17px 3px
+	margin-bottom: 18px
 	.subnav__title
 		margin-bottom: 12px
 	li
@@ -1210,7 +1223,7 @@
 
 .box
 	margin-bottom: 15px
-	padding: 15px 15px 2px
+	padding: 12px 15px 2px
 	border: 1px solid #E9EAE9
 	+border-radius(5px)
 .box__in
@@ -1227,11 +1240,15 @@
 		overflow: hidden
 
 .list-product
+	margin-bottom: 32px
 .list-product__in
 	+clr
 	li
-		width: 231px
+		width: 207px
+		margin-left: 33px
 		float: left
+		&:first-child
+			margin-left: 0
 
 	
 
