@@ -793,3 +793,5 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .list-product__in:after { content: " "; display: table; clear: both; }
 .list-product__in li { width: 207px; margin-left: 33px; float: left; }
 .list-product__in li:first-child { margin-left: 0; }
+
+.list-product_mod li { width: 150px; }
