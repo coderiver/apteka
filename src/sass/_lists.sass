@@ -125,7 +125,7 @@
 	.product__buy
 		font-size: 13px 
 		color: #fff
-		+is
+		+isb
 		position: static
 		text-decoration: none
 		background: none
@@ -178,11 +178,12 @@
 		position: relative
 	.product__img
 		float: left
-		width: 114px 
+		width: 104px 
 		margin-right: 10px 
 		text-align: center
-		height: 106px 
-		line-height: 106px 
+		height: 96px 
+		line-height: 96px 
+		margin-bottom: 0 
 	.label
 		margin-bottom: 0 
 	.product__title
@@ -196,7 +197,7 @@
 		position: absolute
 		right: 0
 		width: 155px 
-		top: 18px 
+		top: 16px 
 		padding-top: 25px 
 		text-align: left
 		.product__price
@@ -204,9 +205,8 @@
 			font-size: 20px 
 			font-weight: normal
 			padding: 0 
-			margin-bottom: 10px 
+			margin-bottom: 8px 
 			width: auto
-			+is
 		.product__price-old
 			position: absolute
 			left: 0
@@ -222,6 +222,8 @@
 		display: inline-block
 	.for-list
 		display: none
+	.product__buy
+		margin-left: 5px 
 	.product
 		padding: 8px 0
 		text-align: left
@@ -263,12 +265,12 @@
 		bottom: auto 
 		width: auto
 		.product__price,.product__price-old
-			right: 176px 
+			right: 165px 
 			position: absolute
 			top: 3px 
 			font-size: 15px 
 		.product__price-old
-			right: 250px 
+			right: 232px 
 			top: auto
 			left: auto
 			bottom: auto 
