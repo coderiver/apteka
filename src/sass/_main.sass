@@ -1184,7 +1184,18 @@
 .cat__title
 	margin-bottom: 5px
 	+pb
-
+.reset-wrap
+	+clr
+	.title
+		float: left
+	.reset-wrap__reset
+		float: right
+		color: #3E9ADE
+		font-size: 13px
+		text-decoration: underline
+		+isb
+		&:hover
+			text-decoration: none
 // brand
 .brand
 	margin-bottom: 61px
@@ -1220,13 +1231,17 @@
 		color: #0086EA
 		line-height: 1.2
 		+is
-
 .box
 	margin-bottom: 15px
-	padding: 12px 15px 2px
+	padding: 12px 7px 2px
 	border: 1px solid #E9EAE9
 	+border-radius(5px)
+	&.box_300
+		height: 289px
+		.box__in
+			height: 284px
 .box__in
+	padding: 0 8px
 	.checkbox
 		margin-left: 2px
 
@@ -1284,7 +1299,19 @@
 		color: #3E9ADE
 		&:hover
 			text-decoration: none
-	
+
+.scroll-pane
+	height: 200px
+	overflow: auto
+.jspDrag
+	+border-radius(10px)
+	&:after
+		content: ""
+		+s(i-scroll)
+		position: absolute
+		top: 50%
+		margin-top: -3px
+		left: 1px
 
 
 
