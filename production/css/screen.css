@@ -55,6 +55,8 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .l-page_mod { *zoom: 1; }
 .l-page_mod:after { content: " "; display: table; clear: both; }
 
+.l-page_cat { margin-bottom: 10px; }
+
 .title { margin-bottom: 10px; color: #191919; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 
 .h2 { margin-top: 12px; margin-bottom: 3px; font-size: 30px; font-family: "istokweb-regular", arial, sans-serif; font-weight: normal; }
@@ -82,19 +84,19 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 
 .header__center { margin-right: 312px; padding: 14px 0; overflow: hidden; text-align: right; }
 
-.header__right { width: 240px; height: 36px; margin: 8px 0 12px 32px; float: right; *zoom: 1; }
+.header__right { width: 240px; height: 36px; margin: 8px 0 12px 32px; float: right; position: relative; *zoom: 1; }
 .header__right:after { content: " "; display: table; clear: both; }
 
 .logo { display: inline-block; position: relative; background: url('../img/icons-s631605ac1e.png') 0 -70px no-repeat; width: 178px; height: 36px; font: 0/0 a; text-shadow: none; color: transparent; }
 
-.profile { max-width: 88px; position: relative; display: inline-block; color: white; }
-.profile .profile__ico { content: ""; background: url('../img/icons-s631605ac1e.png') 0 -2225px no-repeat; width: 11px; height: 7px; position: absolute; top: 19px; right: -20px; z-index: 10; }
+.profile { max-width: 88px; position: relative; display: inline-block; color: white; position: absolute; right: 42px; top: 3px; }
+.profile .profile__ico { content: ""; background: url('../img/icons-s631605ac1e.png') 0 -2225px no-repeat; width: 11px; height: 7px; position: absolute; top: 16px; right: -20px; z-index: 10; }
 
 .profile__meta { font-size: 14px; text-transform: uppercase; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
 
-.profile__user { overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }
+.profile__user { font-size: 12px; font-family: "istokweb-regular", arial, sans-serif; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }
 
-.basket { width: 88px; margin-right: 38px; color: white; display: inline-block; position: relative; }
+.basket { width: 88px; margin-right: 38px; color: white; display: inline-block; position: absolute; top: 3px; }
 .basket:before { content: ""; position: absolute; top: 5px; left: -35px; background: url('../img/icons-s631605ac1e.png') 0 -1906px no-repeat; width: 24px; height: 21px; }
 
 .basket__meta { margin-left: 2px; font-size: 14px; text-transform: uppercase; letter-spacing: -0.01em; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; font-family: "PT Sans Caption", sans-serif; font-weight: 700; }
@@ -150,12 +152,17 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .footer .footer__row { padding: 22px 0; *zoom: 1; }
 .footer .footer__row:after { content: " "; display: table; clear: both; }
 .footer .footer__row_mod { padding: 24px 0 24px; border-bottom: 2px solid white; }
-.footer .footer__row_mod2 { border-top: 2px solid white; }
+.footer .footer__row_mod2 { border-top: 2px solid white; padding-top: 27px; }
+.footer .footer__row_mod2 .footer__label1 { width: 312px; padding-left: 4px; }
+.footer .footer__row_mod2 .footer__label2 { width: 314px; }
+.footer .footer__row_mod2 .footer__label3 { width: 306px; margin-right: 7px; }
+.footer .footer__row_mod2 .footer__label4 { width: 281px; }
 .footer .footer__row_center { margin-left: 5px; }
 .footer .footer__row_center .footer__label1 { width: 312px; }
 .footer .footer__row_center .footer__label2 { width: 314px; }
 .footer .footer__row_center .footer__label3 { width: 312px; }
 .footer .footer__row_center .footer__label4 { width: 281px; }
+.footer .footer__row_cat { margin-bottom: 19px; }
 
 .footer__label { width: 306px; float: left; *zoom: 1; }
 .footer__label:after { content: " "; display: table; clear: both; }
@@ -173,9 +180,9 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 
 .footer__tel { padding-left: 4px; margin-right: 34px; letter-spacing: 1.5px; display: inline-block; vertical-align: middle; font-size: 28px; color: white; font-family: "istokweb-regular", arial, sans-serif; }
 
-.footer__social { margin-right: 121px; display: inline-block; vertical-align: middle; }
+.footer__social { margin-left: 13px; margin-right: 121px; display: inline-block; vertical-align: middle; }
 
-.footer__yandex { margin-top: 8px; margin-right: 58px; display: inline-block; vertical-align: middle; }
+.footer__yandex { margin-top: 8px; margin-right: 69px; display: inline-block; vertical-align: middle; }
 .footer__yandex .i-yandex { margin-right: 20px; float: left; background: url('../img/icons-s631605ac1e.png') 0 -833px no-repeat; width: 62px; height: 40px; }
 .footer__yandex .star { margin-top: 3px; float: left; }
 
@@ -203,15 +210,18 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .star .i-star_a { background: url('../img/icons-s631605ac1e.png') 0 -1562px no-repeat; width: 26px; height: 24px; }
 .star .i-star_un { background: url('../img/icons-s631605ac1e.png') 0 -1671px no-repeat; width: 26px; height: 24px; }
 
-.footer__for-us { padding-right: 30px; line-height: 1.6; }
+.footer__for-us { padding-right: 55px; line-height: 1.7; }
 
 .footer__step { padding-right: 40px; margin-bottom: 50px; line-height: 1.2; }
 
+.table { margin-top: 20px; }
 .table ul { margin-left: -8px; *zoom: 1; }
 .table ul:after { content: " "; display: table; clear: both; }
 .table li { width: 32px; height: 32px; margin-left: 8px; margin-bottom: 8px; float: left; background: #6d6e70; }
 
-.footer__kont-item { margin-bottom: 35px; }
+.footer__kont-item { margin-top: 24px; margin-bottom: 32px; }
+
+.footer__kont-item-addr { margin-bottom: 34px; }
 
 .footer__kont-mail { text-decoration: none; color: #0086ea; font-family: "istokweb-regular", arial, sans-serif; }
 .footer__kont-mail a { text-decoration: none; color: #0086ea; font-family: "istokweb-regular", arial, sans-serif; }

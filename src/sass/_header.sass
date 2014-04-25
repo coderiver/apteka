@@ -17,6 +17,7 @@
 	height: 36px
 	margin: 8px 0 12px 32px
 	float: right
+	position: relative
 	+clr
 .logo
 	display: inline-block
@@ -28,11 +29,14 @@
 	position: relative
 	display: inline-block
 	color: #FFF
+	position: absolute
+	right: 42px
+	top: 3px
 	.profile__ico
 		content: ""
 		+s(i-arr)
 		position: absolute
-		top: 19px
+		top: 16px
 		right: -20px
 		z-index: 10
 .profile__meta
@@ -41,13 +45,16 @@
 	+text-overflow
 	+pb
 .profile__user
+	font-size: 12px
+	+is
 	+text-overflow
 .basket
 	width: 88px
 	margin-right: 38px
 	color: #FFF
 	display: inline-block
-	position: relative
+	position: absolute
+	top: 3px
 	&:before
 		content: ""
 		position: absolute
