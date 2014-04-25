@@ -45,27 +45,29 @@
 	top: 10px
 	right: 8px
 	opacity: .4 
-	+tr(all .2s linear)
+	+tr(opacity .2s linear)
 	line-height: 1 
 	cursor: pointer
 	span
 		position: absolute
 		opacity: 0 
-		right: -30px 
-		top: 5px 
+		right: -25px 
+		top: 5px
 		font-size: 12px 
 		color: #228AE4
 		font-style: normal  
-		right: 20px 
+		right: 15px 
 		overflow: 0
-		+transition(all .2s linear) 
-		white-space: nowrap 
-		width: 100px  
+		+transition(opacity .2s linear) 
+		white-space: nowrap
+		width: 100px
 	&:hover
-		opacity: 1 
+		opacity: 1
 		span
-			right: 20px
+			right: 15px
 			opacity: 1 
+	&:active
+		+s(heart_hover)
 .product__row
 	+clr
 .product__price-old
