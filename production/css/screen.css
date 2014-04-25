@@ -827,10 +827,10 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .list-product_mod .product__title { height: 27px; overflow: hidden; clear: both; }
 
 .lists-top { border-bottom: 1px solid #cccccc; padding-bottom: 12px; margin-bottom: 20px; }
-.lists-top .view { float: right; margin-top: 6px; }
-.lists-top .h2 { margin-bottom: 11px; }
+.lists-top .view { float: right; margin-top: 2px; }
+.lists-top .h2 { margin-bottom: 6px; }
 
-.checkbox_right { float: right; position: relative; top: -3px; }
+.checkbox_right { float: right; position: relative; top: -2px; }
 
 .sort { font-size: 0; }
 .sort dt, .sort dd { display: inline-block; font-size: 13px; }
@@ -855,11 +855,12 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .view .view__shortlist.is-active i, .view .view__shortlist:hover i { background: url('../img/icons-s631605ac1e.png') 0 -2426px no-repeat; width: 20px; height: 18px; }
 
 .pagi { text-align: center; padding: 32px 0; font-size: 15px; border-top: 1px solid #cccccc; margin-top: 24px; }
-.pagi a { display: inline-block; height: 25px; text-decoration: none; color: #4d4d4d; font-weight: bold; padding: 0 8px; line-height: 25px; margin-right: 12px; }
-.pagi a.is-active { color: white; background: #f96c37; }
+.pagi a { display: inline-block; height: 25px; text-decoration: none; color: #4d4d4d; font-weight: bold; padding: 0 8px; line-height: 25px; margin-right: 9px; }
+.pagi a.is-active { color: white; background: #f96c37; margin-left: -1px; margin-right: 9px; }
 .pagi .pagi__next, .pagi .pagi__prev { color: #228ae4; font-weight: normal; }
+.pagi .pagi__prev { margin-right: 11px; padding-right: 0; }
 
-.sep { background: url('../img/icons-s631605ac1e.png') 0 -1465px no-repeat; width: 928px; height: 24px; display: block; margin: 24px 0; }
+.sep { background: url('../img/icons-s631605ac1e.png') 0 -1465px no-repeat; width: 928px; height: 24px; display: block; margin: 14px 0; }
 
 .lists .list-product { margin-bottom: 0; }
 .lists .list-product__in.is-last { margin-bottom: 0; }
