@@ -293,8 +293,9 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .product_big .product__img { width: 208px; height: 208px; line-height: 208px; margin-bottom: 13px; overflow: visible; }
 
 .product__row_cat { position: relative; }
-.product__row_cat .product__price { width: 112px; letter-spacing: 0.06em; }
+.product__row_cat .product__price { width: 28px; padding-right: 40px; letter-spacing: 0.06em; }
 .product__row_cat .product__price:after { right: 11px; }
+.product__row_cat .product__buy { right: 11px; }
 
 .product_mod .product__title { color: black; }
 .product_mod .product__title a { color: black; }
@@ -812,8 +813,8 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .list-product_mod .product { width: 159px; }
 .list-product_mod .product__img { width: 140px; height: 140px; line-height: 140px; margin-top: 11px; }
 .list-product_mod .product__row-label { width: auto; min-width: 100%; height: auto; min-height: 17px; margin-bottom: 5px; position: static; float: left; }
-.list-product_mod .product__row-label .label { margin-top: 0; margin-bottom: 0; }
-.list-product_mod .product__title { height: 30px; overflow: hidden; clear: both; }
+.list-product_mod .product__row-label .label { margin-bottom: 0; }
+.list-product_mod .product__title { height: 27px; overflow: hidden; clear: both; }
 
 .lists-top { border-bottom: 1px solid #cccccc; padding-bottom: 12px; margin-bottom: 20px; }
 .lists-top .view { float: right; margin-top: 6px; }
