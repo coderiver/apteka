@@ -842,7 +842,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .filter a { color: #3e9ade; }
 .filter a:hover { text-decoration: none; }
 
-.scroll-pane { height: 200px; overflow: auto; }
+.scroll-pane { width: auto !important; height: 200px; overflow: auto; }
 
 .jspDrag { -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; }
 .jspDrag:after { content: ""; background: url('../img/icons-s2b3a107528.png') 0 -1412px no-repeat; width: 6px; height: 7px; position: absolute; top: 50%; margin-top: -3px; left: 1px; }
