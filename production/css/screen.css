@@ -826,6 +826,10 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .list-product_mod .product__row-label .label { margin-bottom: 0; }
 .list-product_mod .product__title { height: 27px; overflow: hidden; clear: both; }
 
+.filter { color: #496282; font-size: 16px; font-family: "istokweb-regular", arial, sans-serif; }
+.filter a { color: #3e9ade; }
+.filter a:hover { text-decoration: none; }
+
 .lists-top { border-bottom: 1px solid #cccccc; padding-bottom: 12px; margin-bottom: 20px; }
 .lists-top .view { float: right; margin-top: 2px; }
 .lists-top .h2 { margin-bottom: 6px; }
