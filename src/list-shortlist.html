@@ -3,16 +3,150 @@
 <!--[if gt IE 8]><!--><html><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>product 2</title>
+	<title>list-shortlist</title>
 	<meta name="viewport" content="initial-scale=1"/>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
-	@@include('_headerscripts.html')
+	<link rel="stylesheet" media="screen" href="css/jquery.jscrollpane.css" >
+	<!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.js"></script>
+	<script src="js/cycle.js"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	<script src="js/jquery.jscrollpane.min.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 <!-- BEGIN  out-->
 <div class="out">
 
-	@@include('_header.html')
+	<!-- BEGIN header -->
+<header class="header">
+	<div class="header-i wrap">
+		<div class="header__left">
+			<a href="#" class="logo">здоровье</a>
+		</div>
+		<div class="header__right">
+			<div class="basket">
+				<div class="basket__meta">58 товаров</div>
+				<div class="basket__user">11 235, 00 р.</div>
+			</div>
+			<div class="profile">
+				<i class="profile__ico"></i>
+				<div class="profile__meta">Профиль</div>
+				<div class="profile__user">Алена В.</div>
+			</div>
+		</div>
+		<div class="header__center">
+			<div class="search">
+				<input type="text" class="search__input" placeholder="поиск по аптеке">
+				<button class="search__btn">Найти</button>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- END header -->
+<!-- BEGIN nav -->
+<div class="nav">
+	<div class="nav-i wrap">
+		<ul>
+			<li>
+				<div>
+					<a href="#"><span>Витамины<br> и бад</span></a>
+				</div>
+			</li>
+			<li class="is-active">
+				<div>
+					<a href="#"><span>Народные<br> средства</span></a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#"><span>Медицинская<br> техника</span></a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#"><span>Первая<br> помощь</span></a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#"><span>Реабилитация</span></a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#"><span>Эргономика<br> тела</span></a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#"><span>Сексуальное<br> здоровье</span></a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#"><span>Малышу<br> и маме</span></a>
+				</div>
+			</li>
+			<li class="is-dropnav">
+				<div>
+					<a href="#"><span>Красота<br> и уход</span></a>
+				</div>
+				<div class="sub-nav">
+					<div class="sub-nav-i">
+						<div class="sub-nav__left">
+							<h3 class="sub-nav__title">Красота и уход</h3>
+							<ul>
+								<li><a href="#">Антиперспиранты и дезодоранты</a></li>
+								<li><a href="#">Бальзамы для губ</a></li>
+								<li><a href="#">Бритья и эпиляции</a></li>
+								<li><a href="#">Ватные шарики и тампоны</a></li>
+								<li><a href="#">Гели для душа, мыло</a></li>
+								<li><a href="#">Деликатный уход</a></li>
+								<li><a href="#" class="is-active">Массаж и релаксация</a></li>
+								<li><a href="#">Натуральные средства</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Антиперспиранты и дезодоранты</a></li>
+								<li><a href="#">Бальзамы для губ</a></li>
+								<li><a href="#">Бритья и эпиляции</a></li>
+								<li><a href="#">Ватные шарики и тампоны</a></li>
+								<li><a href="#">Гели для душа, мыло</a></li>
+								<li><a href="#">Деликатный уход</a></li>
+								<li><a href="#">Массаж и релаксация</a></li>
+								<li><a href="#">Натуральные средства</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Антиперспиранты и дезодоранты</a></li>
+								<li><a href="#">Бальзамы для губ</a></li>
+								<li><a href="#">Бритья и эпиляции</a></li>
+								<li><a href="#">Ватные шарики и тампоны</a></li>
+								<li><a href="#">Гели для душа, мыло</a></li>
+								<li><a href="#">Деликатный уход</a></li>
+								<li><a href="#">Массаж и релаксация</a></li>
+								<li><a href="#">Натуральные средства</a></li>
+							</ul>
+						</div>
+						<div class="sub-nav__banners">
+							<div class="sub-nav__banners-item">
+								<a href="#"><img src="img/banner21.jpg" alt=""></a>
+							</div>
+							<div class="sub-nav__banners-item">
+								<a href="#"><img src="img/banner22.jpg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#"><span>Здоровое<br> питание</span></a>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- / .nav -->
 	
 	<!-- BEGIN page -->
 	<div class="page">
@@ -20,92 +154,123 @@
 			<!-- BEGIN l -->
 			<div class="l">
 				<div class="l-sidebar l-sidebar_mini l-sidebar_l">
-						<div class="subnav subnav_mod">
-							<h3 class="subnav__title"><a href="#">Витамины и БАД</a></h3>
-							<ul>
-								<li><a href="#">Бады венотонизирующие</a></li>
-								<li><a href="#">Бады витаминосодержащие</a></li>
-								<li><a href="#">Бады для женщин</a></li>
-								<li><a href="#">Бады для мужчин</a></li>
-								<li><a href="#">Бады для наружного применения</a></li>
-								<li><a href="#">Бады для повышения иммунитета</a></li>
-								<li><a href="#">Бады для снижения веса</a></li>
-								<li><a href="#">Бады для улучшения зрения</a></li>
-								<li><a href="#">Бады для улучшения обменных</a></li>
-								<li><a href="#">Бады для улучшения работы ЖКТ</a></li>
-								<li><a href="#">Бады противоревматические</a></li>
-								<li><a href="#">Бады для снижения веса</a></li>
-							</ul>
-						</div>
+					<div class="subnav subnav_mod">
+						<h3 class="subnav__title"><a href="#">Витамины и БАД</a></h3>
+						<ul>
+							<li><a href="#">Бады венотонизирующие</a></li>
+							<li><a href="#">Бады витаминосодержащие</a></li>
+							<li><a href="#">Бады для женщин</a></li>
+							<li><a href="#">Бады для мужчин</a></li>
+							<li><a href="#">Бады для наружного применения</a></li>
+							<li><a href="#">Бады для повышения иммунитета</a></li>
+							<li><a href="#">Бады для снижения веса</a></li>
+							<li><a href="#">Бады для улучшения зрения</a></li>
+							<li><a href="#">Бады для улучшения обменных</a></li>
+							<li><a href="#">Бады для улучшения работы ЖКТ</a></li>
+							<li><a href="#">Бады противоревматические</a></li>
+							<li><a href="#">Бады для снижения веса</a></li>
+						</ul>
+					</div>
+					<div class="reset-wrap">
 						<div class="title">Бренды</div>
-						<div class="box">
-							<div class="box__in">
-								<label class="checkbox">
-									<input type="checkbox" value="">
-									<span>АВВА РУС<i class="checkbox__ico"></i></span>
-								</label>
-								<label class="checkbox">
-									<input type="checkbox" value="">
-									<span>Авена<i class="checkbox__ico"></i></span>
-								</label>
-								<label class="checkbox">
-									<input type="checkbox" value="">
-									<span>Аверсус<i class="checkbox__ico"></i></span>
-								</label>
+						<a href="#" class="reset-wrap__reset">Сбросить</a>
+					</div>
+					<div class="box box_300">
+						<div class="box__in scroll-pane">
 							<label class="checkbox">
 								<input type="checkbox" value="">
-								<span>АЗРИ<i class="checkbox__ico"></i></span>
+								<span>АВВА РУС<i class="checkbox__ico"></i></span>
 							</label>
 							<label class="checkbox">
 								<input type="checkbox" value="">
-								<span>АЗТ<i class="checkbox__ico"></i></span>
+								<span>Авена<i class="checkbox__ico"></i></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" value="">
-								<span>Аквамир<i class="checkbox__ico"></i></span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" value="">
-								<span>Аквион<i class="checkbox__ico"></i></span>
-							</label>	
-							<label class="checkbox">
-								<input type="checkbox" value="">
-								<span>Алдез<i class="checkbox__ico"></i></span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" value="">
-								<span>Альтфарм<i class="checkbox__ico"></i></span>
-							</label>	
 							<label class="checkbox">
 								<input type="checkbox" value="">
 								<span>Аверсус<i class="checkbox__ico"></i></span>
 							</label>
-							<label class="checkbox">
-								<input type="checkbox" value="">
-								<span>АЗРИ<i class="checkbox__ico"></i></span>
-							</label>	
-							<label class="checkbox">
-								<input type="checkbox" value="">
-								<span>АЗТ<i class="checkbox__ico"></i></span>
-							</label>
-							</div>
-						</div>
-						<div class="cat">
-							<h3 class="title">Спецпредложения</h3>
-							<label class="checkbox">
-								<input type="checkbox" value="">
-								<span>Новинка<i class="checkbox__ico"></i></span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" value="">
-								<span>Рекомендуем<i class="checkbox__ico"></i></span>
-							</label>
-							<label class="checkbox">
-								<input type="checkbox" value="">
-								<span>Выгодно<i class="checkbox__ico"></i></span>
-							</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗРИ<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗТ<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>Аквамир<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>Аквион<i class="checkbox__ico"></i></span>
+						</label>	
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>Алдез<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>Альтфарм<i class="checkbox__ico"></i></span>
+						</label>	
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>Аверсус<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗРИ<i class="checkbox__ico"></i></span>
+						</label>	
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗТ<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗТ<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗТ<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗТ<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗТ<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗТ<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗТ<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>АЗТ<i class="checkbox__ico"></i></span>
+						</label>
 						</div>
 					</div>
+					<div class="cat">
+						<h3 class="title">Спецпредложения</h3>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>Новинка<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>Рекомендуем<i class="checkbox__ico"></i></span>
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" value="">
+							<span>Выгодно<i class="checkbox__ico"></i></span>
+						</label>
+					</div>
+				</div>
 				<div class="l-page">
 					<div class="breadcrumbs">
 						<ul>
@@ -452,7 +617,198 @@
 	</div>
 	<!-- / .page -->
 
-	@@include('_footer_mod.html')
+			<!-- BEGIN footer-->
+		<footer class="footer">
+			<div class="footer__row footer__row_mod">
+				<div class="footer-i">
+					<div class="footer__tel">8 (800) 200−10−15</div>
+					<div class="footer__social">
+						<ul class="social">
+							<li><a href="#" class="social__fb">fb</a></li>
+							<li><a href="#" class="social__vk">vk</a></li>
+							<li><a href="#" class="social__tw">tw</a></li>
+							<li><a href="#" class="social__od">od</a></li>
+						</ul>
+					</div>
+					<div class="footer__yandex">
+						<i class="i-yandex"></i> 
+						<ul class="star">
+							<li><a href="#" class="i-star_a"></a></li>
+							<li><a href="#" class="i-star_a"></a></li>
+							<li><a href="#" class="i-star_a"></a></li>
+							<li><a href="#" class="i-star_a"></a></li>
+							<li><a href="#" class="i-star_un"></a></li>
+						</ul>
+					</div>
+					<div class="footer__delivery">
+						<div class="footer__delivery-title"><h4 class="h4">Рассылка</h4></div>
+						<div class="delivery-form">
+							<input type="text" placeholder="E-mail" class="delivery-form__input">
+							<button class="delivery-form__btn">Подписаться</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-i">
+				<div class="footer__row footer__row_center footer__row_cat">
+					<div class="footer__label footer__label1">
+						<div class="footer__list">
+							<div class="footer__list-top"><h4 class="h4">Аптека+</h4></div>
+							<ul>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Гарантия качества</a></li>
+							</ul>
+						</div>
+						<div class="footer__list">
+							<div class="footer__list-top"></div>
+							<ul>
+								<li><a href="#">Доставка</a></li>
+								<li><a href="#">Оплата</a></li>
+								<li><a href="#">Скидки и акции</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__label footer__label2">
+						<div class="footer__list">
+							<div class="footer__list-top"><h4 class="h4">Каталог</h4></div>
+							<ul>
+								<li><a href="#">Лекарства</a></li>
+								<li><a href="#">Вмтамины и БАД</a></li>
+								<li><a href="#">Мама и малыш</a></li>
+								<li><a href="#">Планирование семьи</a></li>
+							</ul>
+						</div>
+						<div class="footer__list">
+							<div class="footer__list-top"></div>
+							<ul>
+								<li><a href="#">Красота и гигиена</a></li>
+								<li><a href="#">Медтехника</a></li>
+								<li><a href="#">Здоровое питание</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__label footer__label3">
+						<div class="footer__label-top"><h4 class="h4">Алфавитный указатель</h4></div>
+						<div class="alphabet">
+							<ul>
+								<li><a href="#">А</a></li>
+								<li><a href="#">Б</a></li>
+								<li><a href="#">В</a></li>
+								<li><a href="#">Г</a></li>
+								<li><a href="#">Д</a></li>
+								<li><a href="#">Е</a></li>
+								<li><a href="#">Ж</a></li>
+								<li><a href="#">З</a></li>
+								<li><a href="#">И</a></li>
+								<li><a href="#">Й</a></li>
+								<li><a href="#">К</a></li>
+								<li><a href="#">Л</a></li>
+								<li><a href="#">М</a></li>
+								<li><a href="#">Н</a></li>
+								<li><a href="#">О</a></li>
+								<li><a href="#">П</a></li>
+								<li><a href="#">Р</a></li>
+								<li><a href="#">С</a></li>
+								<li><a href="#">Т</a></li>
+								<li><a href="#">У</a></li>
+								<li><a href="#">Ф</a></li>
+								<li><a href="#">Х</a></li>
+								<li><a href="#">Ц</a></li>
+								<li><a href="#">Ч</a></li>
+								<li><a href="#">Ш</a></li>
+								<li><a href="#">Щ</a></li>
+								<li><a href="#">Э</a></li>
+								<li><a href="#">Ю</a></li>
+								<li><a href="#">Я</a></li>
+								<li><a href="#">A - Z</a></li>
+								<li><a href="#">0 - 9</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__label footer__label4">
+						<div class="footer__label-top"><h4 class="h4">Варианты оплаты</h4></div>
+						<ul class="payment-methods">
+							<li><a href="#"><img src="img/icons/i-ico21.png" alt="" class="part1"></a></li>
+							<li><a href="#"><img src="img/icons/i-ico22.png" alt="" class="part2"></a></li>
+							<li><a href="#"><img src="img/icons/i-ico23.png" alt="" class="part3"></a></li>
+							<li><a href="#"><img src="img/icons/i-ico24.png" alt="" class="part4"></a></li>
+							<li><a href="#"><img src="img/icons/i-ico25.png" alt="" class="part5"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__row footer__row_mod2">
+				<div class="footer-i">
+					<div class="footer__label footer__label1">
+						<div class="footer__meta">О нас</div>
+						<div class="footer__for-us">
+							<p>Для оформления заказа перейдите в Вашу корзину. Для этого нажмите на корзину на любой странице сайта или разверните ранее открытое окно корзины. Просмотрите ее содержимое. Вы можете изменить количество экземпляров товара в корзине путем простого изменения числа в графе «количество».</p>
+						</div>
+					</div>
+					<div class="footer__label footer__label2">
+						<div class="footer__meta">твиттер @aptekaplus</div>
+						<div class="footer__step">
+							Для оформления заказа перейдите в Вашу корзину. Для этого нажмите на корзину на любой странице сайта
+						</div>
+						<div class="footer__step">
+							Вы можете изменить количество экземпляров товара в корзине путем простого изменения числа в графе «количество».
+						</div>
+					</div>
+					<div class="footer__label footer__label3">
+						<div class="footer__meta">Вконтакте</div>
+						<div class="table">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+
+								<li></li>
+								<li></li>
+								<li></li> 
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__label footer__label4">
+						<div class="footer__meta">контакты</div>
+						<div class="footer__kont-item">
+							<p><strong>8 (800) 200−10−15 —</strong> горячая линия </p>
+							<p><strong>8 (495) 376−87−32 —</strong> офис</p>
+						</div>
+						<div class="footer__kont-item-addr">
+							<p>Санкт-Петербург 48374</p>
+							<p>Невский проспект 17, офис 34 </p>
+						</div>		
+						<div class="footer__kont-mail"><a href="#">info@aptekaplus.ru</a></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- / .footer -->
 
 </div>
 <!-- END out-->
