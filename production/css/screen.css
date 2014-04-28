@@ -685,7 +685,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .more-product__price { text-align: right; font-size: 12px; font-family: "istokweb-bold", arial, sans-serif; }
 .more-product__price:after { content: ""; display: inline-block; background: url('../img/icons-s2b3a107528.png') 0 -1931px no-repeat; width: 19px; height: 16px; }
 
-.popup-product { width: 594px; padding: 4px 15px 19px 31px; border: 1px solid #939597; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 0 3px #a8aaad; -moz-box-shadow: 0 0 3px #a8aaad; box-shadow: 0 0 3px #a8aaad; position: absolute; top: 150px; left: 50%; margin-left: -298px; }
+.popup-product { width: 592px; padding: 4px 15px 19px 31px; border: 1px solid #939597; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 0 3px #a8aaad; -moz-box-shadow: 0 0 3px #a8aaad; box-shadow: 0 0 3px #a8aaad; position: absolute; top: 150px; left: 50%; margin-left: -298px; }
 
 .i-cross { position: absolute; top: 14px; right: 15px; cursor: pointer; background: url('../img/icons-s2b3a107528.png') 0 -2257px no-repeat; width: 9px; height: 9px; }
 
