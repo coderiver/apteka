@@ -12,7 +12,7 @@
 .checkbox_right
 	float: right
 	position: relative
-	top: -2px 
+	top: -3px 
 .sort
 	font-size: 0
 	dt,dd
@@ -24,11 +24,14 @@
 	dd
 		color: #808080
 		cursor: pointer
-		margin-right: 27px 
+		margin-right: 27px
+		font-size: 14px
+		+is
 		&.is-active
 			span
 				color: #E4512B
-				border-bottom: 1px dotted #E4512B  
+				border-bottom: 1px dotted #E4512B
+				+ps
 	.is-up,.is-down
 		display: inline-block
 		margin-left: 4px 
