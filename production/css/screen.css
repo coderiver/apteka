@@ -643,8 +643,8 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .btn-gray:before { background: url(../img/icons/btn_left-gr.png) 0px 0px no-repeat; }
 .btn-gray:after { background: url(../img/icons/btn_right-gr.png) 0px 0px no-repeat; }
 
-.btn_basket { letter-spacing: 1px; }
-.btn_basket .i-basket { margin-top: -10px; margin-right: 11px; margin-left: -4px; }
+.btn_basket { letter-spacing: 1px; padding: 0 9px; }
+.btn_basket .i-basket { margin-top: -10px; margin-right: 2px; margin-left: -4px; }
 
 .delivery { margin-bottom: 15px; color: #00a550; text-transform: uppercase; font-family: "PT Sans Caption", sans-serif; font-weight: 700; position: relative; }
 .delivery:after { content: ""; margin-left: 15px; display: inline-block; background: url('../img/icons-s2b3a107528.png') 0 -2233px no-repeat; width: 17px; height: 14px; }
