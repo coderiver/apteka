@@ -453,7 +453,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .novelty__list .product__title a { font-family: "istok", arial, sans-serif; }
 
 .product__row-label { width: 208px; height: 18px; position: absolute; bottom: -10px; }
-.product__row-label .label { margin-top: 2px; margin-right: 1px; position: static; float: left; }
+.product__row-label .label { margin-right: 1px; position: static; float: left; }
 .product__row-label .star { width: 90px; margin-top: 2px; float: left; line-height: 1; }
 .product__row-label .star img { margin-left: -5px; }
 
