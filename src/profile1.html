@@ -12,17 +12,15 @@
 	<!-- BEGIN  out-->
 	<div class="out">
 
-		@@include('_header.html')
-
 		<!-- BEGIN page -->
 		<div class="page">
 			<div class="page-i wrap">
 				<div class="l">
-					<div class="l-sidebar l-sidebar_l">
+					<div class="l-sidebar l-sidebar_profile">
 						<div class="profile-nav">
 							<ul>
-								<li><a href="#">Персональные данные</a></li>
-								<li><a href="#" class="is-active">Адреса доставки</a></li>
+								<li><a href="#" class="is-active">Персональные данные</a></li>
+								<li><a href="#">Адреса доставки</a></li>
 								<li><a href="#">Избранное <i class="num">4</i></a></li>
 								<li><a href="#">История покупок</a></li>
 								<li><a href="#">Настройки</a></li>
@@ -71,12 +69,13 @@
 								</div>
 							</div>
 							<div class="user-data__section">
-								<div class="user-data__row">
-									<div class="user-data__descr">Старый пароль</div>
+								<div class="user-data__row user-data__row_pass">
+									<div class="user-data__descr">Пароль</div>
 									<div class="user-data__input">
 										<input type="text" class="input is-pass" value="********">
+										<div class="wrong-pass">Неправильный пароль</div>
 									</div>
-									<a href="#" class="user-data__recover-pass">Забыли пароль?</a>
+									<i class="user-data__recover-pass-ico">!</i> <a href="#" class="user-data__recover-pass">Забыли пароль?</a>
 								</div>
 								<div class="user-data__row">
 									<div class="user-data__descr">Новый пароль</div>
@@ -87,8 +86,8 @@
 							</div>
 							<div class="user-data__row">
 								<div class="user-data__descr"></div>
-								<div class="user-data__input">
-									<a href="#" class="user-data__save">Сохранить</a>
+								<div class="user-data__input user-data__input_save">
+									<a href="#" class="btn-orange2">Сохранить</a>
 								</div>
 							</div>
 						</div>
@@ -97,8 +96,6 @@
 			</div>
 		</div>
 		<!-- / .page -->
-
-		@@include('_footer_mod2.html')
 
 	</div>
 	<!-- END out-->

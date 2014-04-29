@@ -792,7 +792,32 @@
 		+opacity(0.8)
 	&:active
 		top: 1px
- 
+		
+.btn-orange2
+	width: 80px
+	height: 30px
+	line-height: 32px
+	font-size: 13px 
+	color: #fff
+	+isb
+	position: static
+	text-decoration: none
+	background: none
+	box-shadow: 0 2px 0 #D7D8D9
+	border: 1px solid #B9561E 
+	border-radius: 4px 
+	background: #F5A14C 
+	background-color: #f6a33e // Old browsers
+	//@include filter-gradient(#f6a33e, #e67d28, vertical)
+	+background-image(linear-gradient(top, #f6a33e 0%,#e87e29 50%,#c97840 51%,#e67d28 100%))
+	display: inline-block 
+	vertical-align: middle
+	text-align: center
+	&:hover
+		+background-image(linear-gradient(top, #F6A437 0%,#EB8F3F 50%,#D38951 51%,#EB9544 100%))
+	&:active
+		+background-image(linear-gradient(top, #CB8930 0%,#C1702B 50%,#AB6735 51%,#BF6A22 100%))
+
 // btn-green
 .btn-green
 	background: url(../img/icons/btn_center-bl.png) 0px 0px repeat-x
@@ -958,9 +983,9 @@
 	text-decoration: none
 	+is
 .num
-	width: 18px
-	height: 18px
-	line-height: 18px
+	width: 16px
+	height: 16px
+	line-height: 16px
 	display: inline-block
 	+border-radius(50%)
 	background: #FFF
@@ -970,19 +995,25 @@
 	font-style: normal
 	+isb
 .profile-nav
-	padding: 15px 8px 20px
+	width: 242px
+	padding: 7px 8px
 	margin-bottom: 50px
 	background: #53BCAA
+	+border-radius(4px)
 	li
 	a
-		padding: 7px 8px
+		padding: 7px 10px
+		line-height: 1.3
 		display: block
 		color: #fff
 		text-decoration: none
+		+border-radius(2px)
 		+isb
+		&:hover
+			background: #4f999b 
 	.is-active
 		background: #1E6D5F
-		+border-radius(3px)
+
 
 // user-data
 .user-data
@@ -1001,8 +1032,10 @@
 		.user-data__edit-del
 			color: #939597
 .user-data__title
-	margin-bottom: 20px
+	margin-left: 8px
+	margin-bottom: 25px
 	margin-right: 25px
+	line-height: 1
 	display: inline-block
 	font-size: 30px
 	color: #000
@@ -1044,25 +1077,42 @@
 	&:hover
 		text-decoration: none
 .user-data__section
-	margin-bottom: 32px
+	margin-bottom: 30px
 .user-data__row
 	margin-bottom: 16px
+	margin-left: -14px
 	+clr
+.user-data__row_pass
+	margin-bottom: 8px
+	.user-data__descr
+		color: #ED1B2D 
+	.user-data__input
+		height: auto 
 .user-data__descr
-	width: 104px
+	width: 125px
 	height: 32px
 	line-height: 32px
+	margin-left: 7px
 	float: left
-	color: #939597
+	text-transform: uppercase
+	color: #353C3F
 	text-align: right
 	+is
 .user-data__input
-	width: 330px
+	width: 313px
 	height: 32px
 	float: left
 	padding: 0 16px
 	.input
-		width: 310px
+		width: 301px
+		border-color: #c9cacb
+.user-data__input_save
+	width: 321px
+	margin-top: 2px
+	+clr
+	.btn-orange2
+		width: 125px
+		float: right
 .user-data__input_red
 	+clr
 	.user-data__add
@@ -1078,6 +1128,7 @@
 .user-data__checbox
 	height: 32px
 	line-height: 32px
+	margin-left: 10px
 .user-data__save
 	padding: 5px 0
 	display: block
@@ -1094,15 +1145,28 @@
 	&:active
 		position: relative
 		top: 1px
+.user-data__recover-pass-ico
+	height: 32px
+	line-height: 32px
+	margin-right: 3px
+	float: left
+	font-style: normal
+	color: #ed1b2d
 .user-data__recover-pass
 	height: 32px
 	line-height: 32px
+	margin-top: 2px
 	float: left
-	color: $blue
+	color: #ED1B2D
 	font-size: 12px
 	+is
 	&:hover
 		text-decoration: none
+.wrong-pass
+	margin: 2px 0
+	font-size: 14px
+	color: #ED1B2D 
+	+is
 .input
 	padding: 6px 9px
 	border: 1px solid #939597
@@ -1112,7 +1176,8 @@
 	+placeholder
 		color: #353C3F
 	&.is-pass
-		background: #ff9
+		// background: #ff9
+		border: 2px solid #ED1B2D
 .checbox
 	input
 		margin-right: 5px
