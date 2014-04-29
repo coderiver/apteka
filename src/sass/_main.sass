@@ -1024,6 +1024,17 @@
 			margin-left: 7px
 			margin-bottom: 25px
 			margin-right: 22px
+.user-data__topper
+	margin-top: 8px
+.user-data__col
+	+clr
+.user-data__col-1
+	width: 455px
+	margin-right: 32px
+	float: left
+.user-data__col-2
+	width: 445px
+	float: left
 .user-data_mod
 	width: 470px
 	float: left
@@ -1064,6 +1075,21 @@
 		.user-data__form-addr
 		.user-data__edit
 			margin-top: 12px
+	&.user-data__form_mod2
+		padding: 15px 17px 9px
+		.user-data__form-user
+			margin-bottom: 13px
+		.checkbox__ico
+			top: 1px
+		.user-data__form-tel
+			margin-bottom: 13px
+		.user-data__form-addr
+			line-height: 1.2 
+		.user-data__edit
+			padding-top: 1-0px
+			margin-top: 17px
+		.user-data__edit-red
+			margin-right: 8px
 	.user-data__form-user
 		margin-bottom: 15px
 		+isb
@@ -1088,6 +1114,12 @@
 		cursor: pointer
 		&:hover
 			text-decoration: none
+.user-data__form-top
+	+clr
+	.user-data__form-user
+		float: left
+	.checkbox_mod
+		float: right
 .user-data__new
 	display: inline-block
 	color: $blue
@@ -1228,6 +1260,22 @@
 	display: block
 	vertical-align: middle
 	cursor: pointer
+	&.checkbox_mod
+		span
+			color: #BC5609 
+			padding-right: 20px
+		.checkbox__ico
+			left: auto
+			right: -1px
+		input:checked + span
+			.checkbox__ico
+				background: #fbfbfb
+				border-color: #c4c5c6
+				&:after
+					top: 3px
+					left: 3px
+					+s(i_ch)
+
 	span
 		color: #4C4C4C
 		display: inline-block
