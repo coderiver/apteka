@@ -719,6 +719,7 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .profile-nav .is-active { background: #1e6d5f; }
 
 .user-data { margin-bottom: 50px; }
+.user-data.user-data_page2 .user-data__title { margin-top: 9px; margin-left: 7px; margin-bottom: 25px; margin-right: 22px; }
 
 .user-data_mod { width: 470px; float: left; }
 
@@ -730,6 +731,10 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .user-data__title { margin-left: 8px; margin-bottom: 25px; margin-right: 25px; line-height: 1; display: inline-block; font-size: 30px; color: black; font-family: "istokweb-regular", arial, sans-serif; }
 
 .user-data__form { width: 415px; padding: 15px; background: whitesmoke; color: #353c3f; font-family: "istokweb-regular", arial, sans-serif; }
+.user-data__form.user-data__form_mod { width: 416px; padding: 13px 15px 9px; margin-left: 7px; border: 1px solid #ed7e00; }
+.user-data__form.user-data__form_mod .user-data__form-user { margin-bottom: 13px; }
+.user-data__form.user-data__form_mod .user-data__form-tel { margin-bottom: 12px; }
+.user-data__form.user-data__form_mod .user-data__edit { margin-top: 12px; }
 .user-data__form .user-data__form-user { margin-bottom: 15px; font-family: "istokweb-bold", arial, sans-serif; }
 .user-data__form .user-data__form-tel { margin-bottom: 15px; }
 .user-data__form .user-data__edit { padding-top: 10px; margin-top: 10px; border-top: 1px solid #aeacae; }
