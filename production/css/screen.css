@@ -966,6 +966,8 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .lists .list-product { margin-bottom: 0; }
 .lists .list-product__in.is-last { margin-bottom: 0; }
 
+.lists_mod li { width: 201px; }
+
 .product__description { display: none; }
 
 .is-grid .product__title span { display: none; }
