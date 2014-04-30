@@ -813,6 +813,8 @@
 	display: inline-block 
 	vertical-align: middle
 	text-align: center
+	&.btn-orange2_mod
+		width: 125px
 	&:hover
 		+background-image(linear-gradient(top, #F6A437 0%,#EB8F3F 50%,#D38951 51%,#EB9544 100%))
 	&:active
@@ -1027,6 +1029,7 @@
 .user-data__topper
 	margin-top: 8px
 .user-data__col
+	width: 934px
 	+clr
 .user-data__col-1
 	width: 455px
@@ -1048,6 +1051,9 @@
 			color: #939597
 		.user-data__edit-del
 			color: #939597
+.user-data_prof5
+	width: 434px
+	float: left
 .user-data__title
 	margin-left: 8px
 	margin-bottom: 25px
@@ -1128,10 +1134,16 @@
 		text-decoration: none
 .user-data__section
 	margin-bottom: 30px
+	&.user-data__section_prof5
+		margin-bottom: 22px
 .user-data__row
 	margin-bottom: 16px
 	margin-left: -14px
 	+clr
+.user-data__row_textarea
+	margin-bottom: 5px
+	.textarea
+		min-height: 35px 
 .user-data__row_pass
 	margin-bottom: 8px
 	.user-data__descr
@@ -1153,8 +1165,15 @@
 	height: 32px
 	float: left
 	padding: 0 16px
-	.input
+	.input, .select
 		width: 301px
+		border-color: #c9cacb
+.user-data__input
+	.select
+		width: 322px
+.user-data__textarea
+	.textarea
+		width: 302px
 		border-color: #c9cacb
 .user-data__input_save
 	width: 321px
@@ -1170,11 +1189,11 @@
 	.user-data__cancel
 		float: right
 .user-data__textarea
-	width: 330px
+	width: 314px
 	float: left
 	padding: 0 16px
 	.textarea
-		width: 310px
+		width: 302px
 .user-data__checbox
 	height: 32px
 	line-height: 32px
@@ -1212,6 +1231,37 @@
 	+is
 	&:hover
 		text-decoration: none
+.user-data__btn
+	width: 470px
+	+clr
+	.user-data__cancel
+		width: 125px
+		height: 30px
+		line-height: 32px
+		margin-right: 16px
+		float: right
+		font-size: 13px 
+		color: #486181
+		+isb
+		text-decoration: none
+		background: none
+		box-shadow: 0 2px 0 #D7D8D9
+		border: 1px solid #b6b7b8 
+		border-radius: 4px 
+		background: #F5A14C 
+		background-color: #f6a33e // Old browsers
+		+background-image(linear-gradient(top, #fff 0%, #fff 50%, #f2f2f2 51%, #fff 100%))
+		display: inline-block 
+		vertical-align: middle
+		text-align: center
+		&:hover
+			+background-image(linear-gradient(top, #fff 0%, #fff 50%, #f9f9f9 51%, #fff 100%))
+		&:active
+			+background-image(linear-gradient(top, #e9e8e8 0%,#e9e8e8 50%,#dfdfdf 51%,#e9e8e8 100%))
+	.user-data__add
+		width: 125px
+		float: right
+
 .wrong-pass
 	margin: 2px 0
 	font-size: 14px

@@ -11,32 +11,118 @@
 <body>
 	<!-- BEGIN  out-->
 	<div class="out">
-	@@include('_header.html')
 
-	<!-- BEGIN page -->
-	<div class="page">
-		<div class="page-i wrap">
-			<div class="l">
-				<div class="l-sidebar l-sidebar_l">
-					<div class="profile-nav">
-						<ul>
-							<li><a href="#">Персональные данные</a></li>
-							<li><a href="#" class="is-active">Адреса доставки</a></li>
-							<li><a href="#">Избранное <i class="num">4</i></a></li>
-							<li><a href="#">История покупок</a></li>
-							<li><a href="#">Настройки</a></li>
-						</ul>
+		<!-- BEGIN page -->
+		<div class="page">
+			<div class="page-i wrap">
+				<div class="l">
+					<div class="l-sidebar l-sidebar_profile">
+						<div class="profile-nav">
+							<ul>
+								<li><a href="#">Персональные данные</a></li>
+								<li><a href="#" class="is-active">Адреса доставки</a></li>
+								<li><a href="#">Избранное <i class="num">4</i></a></li>
+								<li><a href="#">История покупок</a></li>
+								<li><a href="#">Настройки</a></li>
+							</ul>
+						</div>
 					</div>
-				</div>
-				<div class="l-page">
-					2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, harum, soluta, sit a officiis quam voluptatum consequatur magnam nostrum atque provident architecto voluptatibus. Dolore provident rem distinctio sit voluptatum doloremque.
+					<div class="l-page l-page_mod">
+						<div class="user-data__topper">
+							<div class="user-data__title">Адреса доставки</div>
+						</div>
+						<div class="user-data__col">
+							<div class="user-data__col-1">
+								<div class="user-data user-data_mod">
+									<div class="user-data__section">
+										<div class="user-data__row">
+											<div class="user-data__descr">Фамилия</div>
+											<div class="user-data__input">
+												<input type="text" class="input" placeholder="Прохоров">
+											</div>
+										</div>
+										<div class="user-data__row">
+											<div class="user-data__descr">Имя</div>
+											<div class="user-data__input">
+												<input type="text" class="input" placeholder="Александр">
+											</div>
+										</div>
+										<div class="user-data__row">
+											<div class="user-data__descr">Отчество</div>
+											<div class="user-data__input">
+												<input type="text" class="input" placeholder="Александр">
+											</div>
+										</div>
+									</div>
+									<div class="user-data__section">
+										<div class="user-data__row">
+											<div class="user-data__descr">Телефон</div>
+											<div class="user-data__input">
+												<input type="text" class="input" placeholder="+7 (927) 456−56−55">
+											</div>
+										</div>
+									</div>
+									<div class="user-data__section user-data__section_prof5">
+										<div class="user-data__row">
+											<div class="user-data__descr">Индекс</div>
+											<div class="user-data__input">
+												<input type="text" class="input" placeholder="443099">
+											</div>
+										</div>
+										<div class="user-data__row">
+											<div class="user-data__descr">Город</div>
+											<div class="user-data__input">
+												<select class="select">
+												  <option>Самара</option>
+												  <option>Пункт 2</option>
+												</select>
+											</div>
+										</div>
+										<div class="user-data__row user-data__row_textarea">
+											<div class="user-data__descr">Адрес</div>
+											<div class="user-data__textarea">
+												<textarea class="textarea">ул. Чапаевская 188, 99 вфаыва</textarea>
+											</div>
+										</div>
+										<div class="user-data__row user-data__row_textarea">
+											<div class="user-data__descr">Примечание</div>
+											<div class="user-data__textarea">
+												<textarea class="textarea"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="user-data__row">
+										<div class="user-data__descr"></div>
+										<div class="user-data__btn">
+											<a href="#" class="btn-orange2 user-data__add">Добавить</a>
+											<a href="#" class="user-data__cancel">Отменить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="user-data__col-2">
+								<div class="user-data user-data_prof5">
+									<div class="user-data__form user-data__form_mod2">
+										<div class="user-data__form-user">Прохорова Галина</div>
+										<div class="user-data__form-tel">+7 (927) 434−55−66</div>
+										<div class="user-data__form-addr">
+											<p>443099, Самара</p>
+											<p>ул. Смоленская 177 Г, 143</p>
+										</div>
+										<div class="user-data__edit">
+											<div class="user-data__edit-red">Изменить</div>
+											<div class="user-data__edit-del">Удалить</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- / .page -->
+		<!-- / .page -->
 
-	@@include('_footer_mod2.html')
 	</div>
 	<!-- END out-->
 </body>
