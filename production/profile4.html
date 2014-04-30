@@ -21,326 +21,55 @@
 		<div class="page">
 			<div class="page-i wrap">
 				<div class="l">
-					<div class="l-sidebar l-sidebar_l">
+					<div class="l-sidebar l-sidebar_profile">
 						<div class="profile-nav">
 							<ul>
 								<li><a href="#">Персональные данные</a></li>
-								<li><a href="#" class="is-active">Адреса доставки</a></li>
+								<li><a href="#">Адреса доставки</a></li>
 								<li><a href="#">Избранное <i class="num">4</i></a></li>
-								<li><a href="#">История покупок</a></li>
+								<li><a href="#" class="is-active">История покупок</a></li>
 								<li><a href="#">Настройки</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="l-page l-page_mod">
-						<div class="lists-top">
-							<div class="view">
-								<a href="#" class="view__grid" data-view="grid"><i></i></a>
-								<a href="#" class="view__list is-active" data-view="list"><i></i></a>
-								<a href="#" class="view__shortlist" data-view="shortlist"><i></i></a>
-							</div>
-							<script>
-								$(document).ready(function() {
-									$('.view a').click(function(event) {
-										$('.view a').removeClass('is-active');
-										$(this).addClass('is-active');
-										tosw = $(this).data('view');
-										$('.lists').removeClass('is-grid is-list is-shortlist').addClass('is-'+tosw);
-										return false;
-									});
-								});
-							</script>
-							<h2 class="h2">Поливитамины, содержащие минеральные комплексы</h2>
-							<label class="checkbox checkbox_right">
-								<input type="checkbox" value="">
-								<span>Только в наличии<i class="checkbox__ico"></i></span>
-							</label>
-							<div class="sort">
-								<dl>
-									<dt>Сортировать по:</dt>
-									<dd class="is-active"><span>Цене</span><i class="is-down"></i></dd>
-									<dd><span>Названию</span><i></i></dd>
-									<dd><span>Новизне</span><i></i></dd>
-									<dd><span>Рейтингу</span><i></i></dd>
-									<dd><span>Популярности</span><i></i></dd>
-								</dl>
-							</div>
-						</div>
-						<div class="lists lists_mod is-list">
-							<!-- BEGIN list-product -->
-							<div class="list-product">
-								<ul class="list-product__in">
-									<li>
-										<div class="product product_big product_discount">
-											<div class="product__img">
-												<i class="product__img-heart is-active"><span>В избранное</span></i>
-												<img src="img/pro413.jpg" alt="">
-												<div class="product__row-label">
-													<div class="label label_discount2">выгодно</div>
-													<div class="star">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-													</div>
-												</div>
-											</div>
-											<h4 class="product__title product__title_cat"><a href="#">Редуксин-лайт усиленная формула капсулы, 60 шт. <span>мд009210</span></a></h4>
-											<div class="product__row-label for-list">
-												<div class="label label_discount2">выгодно</div>
-												<div class="star">
-													<img src="img/icons/star4.png" alt="">
-													<img src="img/icons/star4.png" alt="">
-													<img src="img/icons/star4.png" alt="">
-													<img src="img/icons/star4.png" alt="">
-													<img src="img/icons/star4.png" alt="">
-												</div>
-											</div>
-											<div class="product__description">
-												А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...
-											</div>
+						<div class="user-data">
+							<div class="user-data__title">История покупок</div>
+							<div class="history">
+								<div class="history__l">
+									<div class="history__top">
+										<div class="history__col history__col-mini">
+											<div class="history__meta">Дата</div>
+										</div>
+										<div class="history__col history__col-mini">
+											<div class="history__meta">№ Заказа</div>
+										</div>
+										<div class="history__col history__col-mini">
+											<div class="history__meta">Статус</div>
+										</div>
+										<div class="history__col history__col-max">
+											<div class="history__meta">Состав</div>
+										</div>
+									</div>
+									<div class="user-data__cont">
+										<div class="history__col history__col-mini">
+											<div class="history__info">23.03.2014</div>
+										</div>
+										<div class="history__col history__col-mini">
+											<div class="history__info">009201</div>
+										</div>
+										<div class="history__col history__col-mini">
+											<div class="history__dealing">В обработке</div>
+										</div>
+										<div class="history__col history__col-max">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, fuga, vitae, aspernatur sapiente dolorem magnam assumenda provident error rerum beatae ullam illo cum blanditiis praesentium dicta minima mollitia voluptates omnis.
+										</div>
+										<div class="history__col">
 											
-											<div class="product__row product__row_cat">
-										
-												<div class="product__price product__price_black product__price_big">
-													358,00р
-												</div>
-												<input type="text" value="1" class="product__number">
-												<a href="#" class="product__buy">Купить</a>
-											</div>
 										</div>
-									</li>
-									<li>
-										<div class="product product_big product_discount">
-											<div class="product__img">
-												<i class="product__img-heart is-active"><span>В избранное</span></i>
-												<img src="img/pro414.jpg" alt="">
-												<div class="product__row-label">
-													<div class="label label_orange">рекомендуем</div>
-													<div class="star">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-													</div>
-												</div>
-											</div>
-											<h4 class="product__title product__title_cat"><a href="#">Редуксин-лайт усиленная формула капсулы, 60 шт.</a></h4>
-											<div class="product__description">
-												А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...
-											</div>
-											<div class="product__row product__row_cat">
-												<div class="product__price-old">
-													405,40р.
-												</div>
-												<div class="product__price product__price_big">
-													358,00р
-												</div>
-												<input type="text" value="1" class="product__number">
-												<a href="#" class="product__buy">Купить</a>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="product product_big product_discount">
-											<div class="product__img">
-												<i class="product__img-heart is-active"></i>
-												<img src="img/pro415.jpg" alt="">
-												<div class="product__row-label product__row-label_align">
-													<div class="star">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4_h.png" alt="">
-													</div>
-												</div>
-											</div>
-											<h4 class="product__title product__title_cat"><a href="#">Редуксин-лайт усиленная формула капсулы, 60 шт.</a></h4>
-											<div class="product__description">
-												А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...
-											</div>
-											<div class="product__row product__row_cat">
-												<div class="product__price-old">
-													405,40р.
-												</div>
-												<div class="product__price product__price_big">
-													358,00р
-												</div>
-												<input type="text" value="1" class="product__number">
-												<a href="#" class="product__buy">Купить</a>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="product product_big product_discount">
-											<div class="product__img">
-												<i class="product__img-heart is-active"></i>
-												<img src="img/pro416.jpg" alt="">
-												<div class="product__row-label product__row-label_align">
-													<div class="star">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-													</div>
-												</div>
-											</div>
-											<h4 class="product__title product__title_cat"><a href="#">Редуксин-лайт усиленная формула капсулы, 60 шт.</a></h4>
-											<div class="product__description">
-												А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...
-											</div>
-											<div class="product__row product__row_cat">
-												<div class="product__price-old">
-													405,40р.
-												</div>
-												<div class="product__price product__price_big">
-													358,00р
-												</div>
-												<input type="text" value="1" class="product__number">
-												<a href="#" class="product__buy">Купить</a>
-											</div>
-										</div>
-									</li>
-								</ul>
-								<div class="sep"></div>
-								<ul class="list-product__in">
-									<li>
-										<div class="product product_big product_discount">
-											<div class="product__img">
-												<i class="product__img-heart is-active"><span>В избранное</span></i>
-												<img src="img/pro413.jpg" alt="">
-												<div class="product__row-label">
-													<div class="label label_discount2">выгодно</div>
-													<div class="star">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-													</div>
-												</div>
-											</div>
-											<h4 class="product__title product__title_cat"><a href="#">Редуксин-лайт усиленная формула капсулы, 60 шт. <span>мд009210</span></a></h4>
-											<div class="product__row-label for-list">
-												<div class="label label_discount2">выгодно</div>
-												<div class="star">
-													<img src="img/icons/star4.png" alt="">
-													<img src="img/icons/star4.png" alt="">
-													<img src="img/icons/star4.png" alt="">
-													<img src="img/icons/star4.png" alt="">
-													<img src="img/icons/star4.png" alt="">
-												</div>
-											</div>
-											<div class="product__description">
-												А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...
-											</div>
-											
-											<div class="product__row product__row_cat">
-										
-												<div class="product__price product__price_black product__price_big">
-													358,00р
-												</div>
-												<input type="text" value="1" class="product__number">
-												<a href="#" class="product__buy">Купить</a>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="product product_big product_discount">
-											<div class="product__img">
-												<i class="product__img-heart is-active"><span>В избранное</span></i>
-												<img src="img/pro414.jpg" alt="">
-												<div class="product__row-label">
-													<div class="label label_orange">рекомендуем</div>
-													<div class="star">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-													</div>
-												</div>
-											</div>
-											<h4 class="product__title product__title_cat"><a href="#">Редуксин-лайт усиленная формула капсулы, 60 шт.</a></h4>
-											<div class="product__description">
-												А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...
-											</div>
-											<div class="product__row product__row_cat">
-												<div class="product__price-old">
-													405,40р.
-												</div>
-												<div class="product__price product__price_big">
-													358,00р
-												</div>
-												<input type="text" value="1" class="product__number">
-												<a href="#" class="product__buy">Купить</a>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="product product_big product_discount">
-											<div class="product__img">
-												<i class="product__img-heart is-active"></i>
-												<img src="img/pro415.jpg" alt="">
-												<div class="product__row-label product__row-label_align">
-													<div class="star">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4_h.png" alt="">
-													</div>
-												</div>
-											</div>
-											<h4 class="product__title product__title_cat"><a href="#">Редуксин-лайт усиленная формула капсулы, 60 шт.</a></h4>
-											<div class="product__description">
-												А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...
-											</div>
-											<div class="product__row product__row_cat">
-												<div class="product__price-old">
-													405,40р.
-												</div>
-												<div class="product__price product__price_big">
-													358,00р
-												</div>
-												<input type="text" value="1" class="product__number">
-												<a href="#" class="product__buy">Купить</a>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="product product_big product_discount">
-											<div class="product__img">
-												<i class="product__img-heart is-active"></i>
-												<img src="img/pro416.jpg" alt="">
-												<div class="product__row-label product__row-label_align">
-													<div class="star">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-														<img src="img/icons/star4.png" alt="">
-													</div>
-												</div>
-											</div>
-											<h4 class="product__title product__title_cat"><a href="#">Редуксин-лайт усиленная формула капсулы, 60 шт.</a></h4>
-											<div class="product__description">
-												А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...А-церумен предназначен для удаления серных пробок в наружном слуховом проходе,а также для профилактики развития серных пробок...
-											</div>
-											<div class="product__row product__row_cat">
-												<div class="product__price-old">
-													405,40р.
-												</div>
-												<div class="product__price product__price_big">
-													358,00р
-												</div>
-												<input type="text" value="1" class="product__number">
-												<a href="#" class="product__buy">Купить</a>
-											</div>
-										</div>
-									</li>
-								</ul>
-
+									</div>
+								</div>
 							</div>
-							<!-- / .list-product -->
 						</div>
 					</div>
 				</div>

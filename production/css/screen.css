@@ -920,6 +920,14 @@ body { min-width: 1260px; font-size: 14px; font-family: Arial, sans-serif; line-
 .brand-list { margin: 3px 0; }
 .brand-list li { margin-bottom: 2px; line-height: 1.6; color: #4c4c4c; font-size: 14px; font-family: "istokweb-regular", arial, sans-serif; }
 
+.history .history__l { *zoom: 1; }
+.history .history__l:after { content: " "; display: table; clear: both; }
+.history .history__col { float: left; }
+.history .history__col-mini { width: 120px; }
+.history .history__col-max { width: 544px; }
+.history .history__meta { text-transform: uppercase; color: #6d6e70; font-family: "istokweb-regular", arial, sans-serif; }
+.history .history__top { overflow: hidden; border-bottom: 1px solid #e5e5e5; }
+
 .lists-top { border-bottom: 1px solid #cccccc; padding-bottom: 12px; margin-bottom: 20px; }
 .lists-top .view { float: right; margin-top: 2px; }
 .lists-top .h2 { margin-bottom: 6px; }
